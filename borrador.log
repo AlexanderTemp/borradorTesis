@@ -1,0 +1,901 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.3) (preloaded format=pdflatex 2021.5.31)  8 DEC 2022 02:53
+entering extended mode
+**./borrador.tex
+(borrador.tex
+LaTeX2e <2020-10-01> patch level 4
+L3 programming layer <2021-05-27>
+(C:\Program Files\MiKTeX\tex/latex/base\book.cls
+Document Class: book 2020/04/10 v1.4m Standard LaTeX document class
+(C:\Program Files\MiKTeX\tex/latex/base\bk12.clo
+File: bk12.clo 2020/04/10 v1.4m Standard LaTeX file (size option)
+)
+\c@part=\count181
+\c@chapter=\count182
+\c@section=\count183
+\c@subsection=\count184
+\c@subsubsection=\count185
+\c@paragraph=\count186
+\c@subparagraph=\count187
+\c@figure=\count188
+\c@table=\count189
+\abovecaptionskip=\skip47
+\belowcaptionskip=\skip48
+\bibindent=\dimen138
+)
+(C:\Program Files\MiKTeX\tex/latex/base\inputenc.sty
+Package: inputenc 2020/08/01 v1.3d Input encoding file
+\inpenc@prehook=\toks15
+\inpenc@posthook=\toks16
+)
+(C:\Program Files\MiKTeX\tex/generic/babel\babel.sty
+Package: babel 2021/05/16 3.59 The Babel package
+
+(C:\Program Files\MiKTeX\tex/generic/babel\babel.def
+File: babel.def 2021/05/16 3.59 Babel common definitions
+\babel@savecnt=\count190
+\U@D=\dimen139
+\l@unhyphenated=\language79
+
+(C:\Program Files\MiKTeX\tex/generic/babel\txtbabel.def)
+\bbl@readstream=\read2
+)
+\bbl@dirlevel=\count191
+
+*************************************
+* Local config file bblopts.cfg used
+*
+(C:\Program Files\MiKTeX\tex/latex/arabi\bblopts.cfg
+File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of
+ babel
+)
+(C:\Program Files\MiKTeX\tex/latex/babel-spanish\spanish.ldf
+Language: spanish.ldf 2021/05/27 v5.0q Spanish support from the babel system
+\es@quottoks=\toks17
+\es@quotdepth=\count192
+Package babel Info: Making " an active character on input line 570.
+Package babel Info: Making . an active character on input line 675.
+Package babel Info: Making < an active character on input line 722.
+Package babel Info: Making > an active character on input line 722.
+))
+(C:\Program Files\MiKTeX\tex/latex/amsmath\amsmath.sty
+Package: amsmath 2020/09/23 v2.17i AMS math features
+\@mathmargin=\skip49
+
+For additional information on amsmath, use the `?' option.
+(C:\Program Files\MiKTeX\tex/latex/amsmath\amstext.sty
+Package: amstext 2000/06/29 v2.01 AMS text
+
+(C:\Program Files\MiKTeX\tex/latex/amsmath\amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks18
+\ex@=\dimen140
+))
+(C:\Program Files\MiKTeX\tex/latex/amsmath\amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen141
+)
+(C:\Program Files\MiKTeX\tex/latex/amsmath\amsopn.sty
+Package: amsopn 2016/03/08 v2.02 operator names
+)
+\inf@bad=\count193
+LaTeX Info: Redefining \frac on input line 234.
+\uproot@=\count194
+\leftroot@=\count195
+LaTeX Info: Redefining \overline on input line 399.
+\classnum@=\count196
+\DOTSCASE@=\count197
+LaTeX Info: Redefining \ldots on input line 496.
+LaTeX Info: Redefining \dots on input line 499.
+LaTeX Info: Redefining \cdots on input line 620.
+\Mathstrutbox@=\box47
+\strutbox@=\box48
+\big@size=\dimen142
+LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
+\macc@depth=\count198
+\c@MaxMatrixCols=\count199
+\dotsspace@=\muskip16
+\c@parentequation=\count266
+\dspbrk@lvl=\count267
+\tag@help=\toks19
+\row@=\count268
+\column@=\count269
+\maxfields@=\count270
+\andhelp@=\toks20
+\eqnshift@=\dimen143
+\alignsep@=\dimen144
+\tagshift@=\dimen145
+\tagwidth@=\dimen146
+\totwidth@=\dimen147
+\lineht@=\dimen148
+\@envbody=\toks21
+\multlinegap=\skip50
+\multlinetaggap=\skip51
+\mathdisplay@stack=\toks22
+LaTeX Info: Redefining \[ on input line 2923.
+LaTeX Info: Redefining \] on input line 2924.
+)
+(C:\Program Files\MiKTeX\tex/latex/amsfonts\amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+)
+(C:\Program Files\MiKTeX\tex/latex/amsfonts\amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+)
+(C:\Program Files\MiKTeX\tex/latex/latex-tools\indentfirst.sty
+Package: indentfirst 1995/11/23 v1.03 Indent first paragraph (DPC)
+)
+(C:\Program Files\MiKTeX\tex/latex/graphics\graphicx.sty
+Package: graphicx 2020/09/09 v1.2b Enhanced LaTeX Graphics (DPC,SPQR)
+
+(C:\Program Files\MiKTeX\tex/latex/graphics\keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks23
+)
+(C:\Program Files\MiKTeX\tex/latex/graphics\graphics.sty
+Package: graphics 2020/08/30 v1.4c Standard LaTeX Graphics (DPC,SPQR)
+
+(C:\Program Files\MiKTeX\tex/latex/graphics\trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+(C:\Program Files\MiKTeX\tex/latex/graphics-cfg\graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 105.
+
+(C:\Program Files\MiKTeX\tex/latex/graphics-def\pdftex.def
+File: pdftex.def 2020/10/05 v1.2a Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen149
+\Gin@req@width=\dimen150
+)
+(C:\Program Files\MiKTeX\tex/latex/enumitem\enumitem.sty
+Package: enumitem 2019/06/20 v3.9 Customized lists
+\labelindent=\skip52
+\enit@outerparindent=\dimen151
+\enit@toks=\toks24
+\enit@inbox=\box49
+\enit@count@id=\count271
+\enitdp@description=\count272
+)
+(C:\Program Files\MiKTeX\tex/latex/float\float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count273
+\float@exts=\toks25
+\float@box=\box50
+\@float@everytoks=\toks26
+\@floatcapt=\box51
+)
+(C:\Program Files\MiKTeX\tex/latex/hanging\hanging.sty
+Package: hanging 2009/09/02 v1.2b hanging paragraphs and punctuation
+\h@ngcommawd=\skip53
+\h@ngfstopwd=\skip54
+\h@ngquotewd=\skip55
+\h@ngdquotewd=\skip56
+\h@ngquerywd=\skip57
+\h@ngexclwd=\skip58
+\h@ngcolonwd=\skip59
+\h@ngscolonwd=\skip60
+)
+(C:\Program Files\MiKTeX\tex/latex/geometry\geometry.sty
+Package: geometry 2020/01/02 v5.9 Page Geometry
+
+(C:\Program Files\MiKTeX\tex/generic/iftex\ifvtex.sty
+Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+
+(C:\Program Files\MiKTeX\tex/generic/iftex\iftex.sty
+Package: iftex 2020/03/06 v1.0d TeX engine tests
+))
+\Gm@cnth=\count274
+\Gm@cntv=\count275
+\c@Gm@tempcnt=\count276
+\Gm@bindingoffset=\dimen152
+\Gm@wd@mp=\dimen153
+\Gm@odd@mp=\dimen154
+\Gm@even@mp=\dimen155
+\Gm@layoutwidth=\dimen156
+\Gm@layoutheight=\dimen157
+\Gm@layouthoffset=\dimen158
+\Gm@layoutvoffset=\dimen159
+\Gm@dimlist=\toks27
+
+(C:\Program Files\MiKTeX\tex/latex/geometry\geometry.cfg))
+(C:\Program Files\MiKTeX\tex/latex/caption\caption.sty
+Package: caption 2020/10/26 v3.5g Customizing captions (AR)
+
+(C:\Program Files\MiKTeX\tex/latex/caption\caption3.sty
+Package: caption3 2020/10/21 v2.2e caption3 kernel (AR)
+\captionmargin=\dimen160
+\captionmargin@=\dimen161
+\captionwidth=\dimen162
+\caption@tempdima=\dimen163
+\caption@indent=\dimen164
+\caption@parindent=\dimen165
+\caption@hangindent=\dimen166
+Package caption Info: Standard document class detected.
+)
+\c@caption@flags=\count277
+\c@continuedfloat=\count278
+Package caption Info: float package is loaded.
+)
+(C:\Program Files\MiKTeX\tex/latex/titlesec\titlesec.sty
+Package: titlesec 2021/07/05 v2.14 Sectioning titles
+\ttl@box=\box52
+\beforetitleunit=\skip61
+\aftertitleunit=\skip62
+\ttl@plus=\dimen167
+\ttl@minus=\dimen168
+\ttl@toksa=\toks28
+\titlewidth=\dimen169
+\titlewidthlast=\dimen170
+\titlewidthfirst=\dimen171
+)
+(C:\Program Files\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
+File: l3backend-pdftex.def 2021-05-07 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count279
+\l__pdf_internal_box=\box53
+)
+
+LaTeX Warning: Unused global option(s):
+    [letter].
+
+(borrador.aux
+LaTeX Info: Redefining \. on input line 8.
+LaTeX Info: Redefining \% on input line 8.
+)
+\openout1 = `borrador.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Info: Redefining \. on input line 39.
+LaTeX Info: Redefining \% on input line 39.
+ (C:\Program Files\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count280
+\scratchdimen=\dimen172
+\scratchbox=\box54
+\nofMPsegments=\count281
+\nofMParguments=\count282
+\everyMPshowfont=\toks29
+\MPscratchCnt=\count283
+\MPscratchDim=\dimen173
+\MPnumerator=\count284
+\makeMPintoPDFobject=\count285
+\everyMPtoPDFconversion=\toks30
+) (C:\Program Files\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+85.
+
+(C:\Program Files\MiKTeX\tex/latex/00miktex\epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
+))
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: <default>
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: twoside 
+* h-part:(L,W,R)=(113.81102pt, 429.3521pt, 71.13188pt)
+* v-part:(T,H,B)=(113.81102pt, 610.02708pt, 71.13188pt)
+* \paperwidth=614.295pt
+* \paperheight=794.96999pt
+* \textwidth=429.3521pt
+* \textheight=610.02708pt
+* \oddsidemargin=41.54103pt
+* \evensidemargin=-1.1381pt
+* \topmargin=9.66724pt
+* \headheight=12.0pt
+* \headsep=19.8738pt
+* \topskip=12.0pt
+* \footskip=30.0pt
+* \marginparwidth=98.0pt
+* \marginparsep=7.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidetrue
+* \@mparswitchtrue
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: End \AtBeginDocument code.
+[1
+
+
+{C:/Users/aaale/AppData/Local/MiKTeX/pdftex/config/pdftex.map}] [2] [3
+
+]
+[4] (borrador.toc
+LaTeX Info: Redefining \. on input line 1.
+LaTeX Info: Redefining \% on input line 1.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 3.
+ (C:\Program Files\MiKTeX\tex/latex/amsfonts\umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 3.
+
+(C:\Program Files\MiKTeX\tex/latex/amsfonts\umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+) [5
+
+] [6] [7])
+\tf@toc=\write3
+\openout3 = `borrador.toc'.
+
+ [8]
+(borrador.lof
+LaTeX Info: Redefining \. on input line 1.
+LaTeX Info: Redefining \% on input line 1.
+ [9
+
+])
+\tf@lof=\write4
+\openout4 = `borrador.lof'.
+
+ [10] (borrador.lot
+LaTeX Info: Redefining \. on input line 1.
+LaTeX Info: Redefining \% on input line 1.
+)
+\tf@lot=\write5
+\openout5 = `borrador.lot'.
+
+ [11
+
+] [12
+
+]
+Cap\'{\i }tulo 1.
+[1] [2] [3] [4]
+Overfull \hbox (1.19553pt too wide) in paragraph at lines 114--115
+\OT1/cmr/m/n/12 RRO DE EN-TI-DA-DES DE IN-TER-ME-DIA-CI[]ON FI-NAN-CIE-RA CA-SO
+: YOT-
+ []
+
+[5] [6]
+Underfull \vbox (badness 1953) has occurred while \output is active []
+
+ [7]
+[8] [9]
+Underfull \vbox (badness 1314) has occurred while \output is active []
+
+ [10]
+[11]
+Overfull \hbox (4.96701pt too wide) in paragraph at lines 183--184
+[]\OT1/cmr/m/n/12 La apli-ca-cion web es-tara dis-po-ni-ble tan-to pa-ra dis-
+po-si-ti-vos movi-les co-mo compu-
+ []
+
+[12]
+Overfull \hbox (23.60532pt too wide) in paragraph at lines 202--202
+|[]\OT1/cmr/bx/n/14.4 METODOLOG[]IA PA-RA EL DE-SA-RRO-LLO DE APLI-
+ []
+
+
+Underfull \vbox (badness 2744) has occurred while \output is active []
+
+ [13]
+<./images//tabla1_1.png, id=84, 757.6305pt x 298.11375pt>
+File: ./images//tabla1_1.png Graphic file (type png)
+<use ./images//tabla1_1.png>
+Package pdftex.def Info: ./images//tabla1_1.png  used on input line 206.
+(pdftex.def)             Requested size: 429.3521pt x 168.9395pt.
+<./images//tabla1_2.png, id=86, 687.16725pt x 467.94826pt>
+File: ./images//tabla1_2.png Graphic file (type png)
+<use ./images//tabla1_2.png>
+Package pdftex.def Info: ./images//tabla1_2.png  used on input line 214.
+(pdftex.def)             Requested size: 429.3521pt x 292.38126pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 214--216
+
+ []
+
+[14 <./images//tabla1_1.png>]
+<./images//figura1_1.png, id=91, 743.77875pt x 365.56575pt>
+File: ./images//figura1_1.png Graphic file (type png)
+<use ./images//figura1_1.png>
+Package pdftex.def Info: ./images//figura1_1.png  used on input line 230.
+(pdftex.def)             Requested size: 429.3521pt x 211.0298pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 230--232
+
+ []
+
+[15 <./images//tabla1_2.png>]
+Overfull \hbox (31.05528pt too wide) in paragraph at lines 244--244
+|[]\OT1/cmr/bx/n/14.4 METODOLOG[]IA PA-RA EL DE-SA-RRO-LLO DE CHAT-
+ []
+
+[16 <./images//figura1_1.png>] [17] [18]
+Cap\'{\i }tulo 2.
+[19
+
+] [20] [21]
+Overfull \hbox (19.67705pt too wide) in paragraph at lines 285--285
+|[]\OT1/cmr/bx/n/17.28 TIPOS DE MO-DE-LOS PA-RA AGEN-TES VIR-
+ []
+
+[22]
+Overfull \hbox (0.69049pt too wide) in paragraph at lines 299--299
+|[]\OT1/cmr/bx/n/14.4 ASISTENTES BA-SA-DOS EN RE-CU-PE-RA-CI[]ON DE
+ []
+
+<./images//figura2_1.png, id=120, 823.27576pt x 384.2355pt>
+File: ./images//figura2_1.png Graphic file (type png)
+<use ./images//figura2_1.png>
+Package pdftex.def Info: ./images//figura2_1.png  used on input line 304.
+(pdftex.def)             Requested size: 429.3521pt x 200.3899pt.
+[23]
+Overfull \hbox (4.35535pt too wide) in paragraph at lines 311--311
+|[]\OT1/cmr/bx/n/14.4 ASISTENTES BA-SA-DOS EN LA GE-NE-RA-CI[]ON DE
+ []
+
+[24 <./images//figura2_1.png>]
+<./images//tabla2_1.png, id=128, 687.7695pt x 515.526pt>
+File: ./images//tabla2_1.png Graphic file (type png)
+<use ./images//tabla2_1.png>
+Package pdftex.def Info: ./images//tabla2_1.png  used on input line 326.
+(pdftex.def)             Requested size: 429.3521pt x 321.83325pt.
+ [25] [26 <./images//tabla2_1.png>]
+<./images//figura2_2.png, id=137, 696.80325pt x 308.95425pt>
+File: ./images//figura2_2.png Graphic file (type png)
+<use ./images//figura2_2.png>
+Package pdftex.def Info: ./images//figura2_2.png  used on input line 348.
+(pdftex.def)             Requested size: 429.3521pt x 190.37108pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 348--350
+
+ []
+
+[27] [28 <./images//figura2_2.png>] [29] [30] [31]
+<./images//figura2_3.png, id=156, 612.48825pt x 178.86826pt>
+File: ./images//figura2_3.png Graphic file (type png)
+<use ./images//figura2_3.png>
+Package pdftex.def Info: ./images//figura2_3.png  used on input line 407.
+(pdftex.def)             Requested size: 429.3521pt x 125.38705pt.
+ [32] [33 <./images//figura2_3.png>]
+<./images//figura2_4.png, id=164, 652.23676pt x 293.29575pt>
+File: ./images//figura2_4.png Graphic file (type png)
+<use ./images//figura2_4.png>
+Package pdftex.def Info: ./images//figura2_4.png  used on input line 433.
+(pdftex.def)             Requested size: 429.3521pt x 193.07007pt.
+ [34] [35 <./images//figura2_4.png>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [36]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [37]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [38]
+[39]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [40]
+[41]
+<./images//figura2_5.png, id=191, 540.21825pt x 266.79675pt>
+File: ./images//figura2_5.png Graphic file (type png)
+<use ./images//figura2_5.png>
+Package pdftex.def Info: ./images//figura2_5.png  used on input line 497.
+(pdftex.def)             Requested size: 343.48299pt x 169.64201pt.
+ [42 <./images//figura2_5.png>]
+<./images//figura2_6.png, id=196, 308.352pt x 426.393pt>
+File: ./images//figura2_6.png Graphic file (type png)
+<use ./images//figura2_6.png>
+Package pdftex.def Info: ./images//figura2_6.png  used on input line 509.
+(pdftex.def)             Requested size: 343.48299pt x 474.98044pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [43]
+[44 <./images//figura2_6.png>] [45]
+<./images//figura2_7.png, id=208, 513.117pt x 184.89075pt>
+File: ./images//figura2_7.png Graphic file (type png)
+<use ./images//figura2_7.png>
+Package pdftex.def Info: ./images//figura2_7.png  used on input line 526.
+(pdftex.def)             Requested size: 343.48299pt x 123.77176pt.
+ [46 <./images//figura2_7.png>] [47]
+<./images//figura2_8.png, id=216, 655.248pt x 247.52475pt>
+File: ./images//figura2_8.png Graphic file (type png)
+<use ./images//figura2_8.png>
+Package pdftex.def Info: ./images//figura2_8.png  used on input line 552.
+(pdftex.def)             Requested size: 343.48299pt x 129.75603pt.
+
+[48 <./images//figura2_8.png>]
+<./images//figura2_9.png, id=221, 706.43925pt x 239.09325pt>
+File: ./images//figura2_9.png Graphic file (type png)
+<use ./images//figura2_9.png>
+Package pdftex.def Info: ./images//figura2_9.png  used on input line 566.
+(pdftex.def)             Requested size: 343.48299pt x 116.24829pt.
+ [49 <./images//figura2_9.png>]
+<./images//tabla2_2.png, id=227, 684.156pt x 534.19576pt>
+File: ./images//tabla2_2.png Graphic file (type png)
+<use ./images//tabla2_2.png>
+Package pdftex.def Info: ./images//tabla2_2.png  used on input line 578.
+(pdftex.def)             Requested size: 429.3521pt x 335.24907pt.
+
+Overfull \hbox (2.86145pt too wide) in paragraph at lines 583--583
+|[]\OT1/cmr/bx/n/17.28 COMPRENSI[]ON DE TR[]AMI-TES UNI-VER-
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [50 <./images//tabla2_2.png>] [51] [52] [53] [54
+
+]
+Cap\'{\i }tulo 3.
+<./images//figura3_1.png, id=244, 347.553pt x 144.8685pt>
+File: ./images//figura3_1.png Graphic file (type png)
+<use ./images//figura3_1.png>
+Package pdftex.def Info: ./images//figura3_1.png  used on input line 628.
+(pdftex.def)             Requested size: 429.3521pt x 178.97412pt.
+[55] [56 <./images//figura3_1.png>] [57]
+<./images//figura3_2.png, id=256, 781.41937pt x 507.39563pt>
+File: ./images//figura3_2.png Graphic file (type png)
+<use ./images//figura3_2.png>
+Package pdftex.def Info: ./images//figura3_2.png  used on input line 658.
+(pdftex.def)             Requested size: 300.54515pt x 195.1505pt.
+
+Underfull \vbox (badness 1748) has occurred while \output is active []
+
+ [58 <./images//figura3_2.png>]
+<./images//tabla3_1.png, id=261, 1154.81438pt x 356.0803pt>
+File: ./images//tabla3_1.png Graphic file (type png)
+<use ./images//tabla3_1.png>
+Package pdftex.def Info: ./images//tabla3_1.png  used on input line 676.
+(pdftex.def)             Requested size: 429.3521pt x 132.38878pt.
+<./images//tabla3_2.png, id=262, 1072.75781pt x 383.18156pt>
+File: ./images//tabla3_2.png Graphic file (type png)
+<use ./images//tabla3_2.png>
+Package pdftex.def Info: ./images//tabla3_2.png  used on input line 685.
+(pdftex.def)             Requested size: 429.3521pt x 153.3576pt.
+<./images//tabla3_3.png, id=263, 1071.25218pt x 432.11438pt>
+File: ./images//tabla3_3.png Graphic file (type png)
+<use ./images//tabla3_3.png>
+Package pdftex.def Info: ./images//tabla3_3.png  used on input line 698.
+(pdftex.def)             Requested size: 429.3521pt x 173.19214pt.
+ [59 <./images//tabla3_1.png>]
+<./images//tabla3_4.png, id=268, 1072.005pt x 537.50812pt>
+File: ./images//tabla3_4.png Graphic file (type png)
+<use ./images//tabla3_4.png>
+Package pdftex.def Info: ./images//tabla3_4.png  used on input line 707.
+(pdftex.def)             Requested size: 429.3521pt x 215.27829pt.
+ [60 <./images//tabla3_2.png> <./images//tabla3_3.png>]
+<./images//tabla3_5.png, id=274, 1069.74657pt x 377.91188pt>
+File: ./images//tabla3_5.png Graphic file (type png)
+<use ./images//tabla3_5.png>
+Package pdftex.def Info: ./images//tabla3_5.png  used on input line 716.
+(pdftex.def)             Requested size: 429.3521pt x 151.68105pt.
+<./images//tabla3_6.png, id=275, 1070.49937pt x 429.85594pt>
+File: ./images//tabla3_6.png Graphic file (type png)
+<use ./images//tabla3_6.png>
+Package pdftex.def Info: ./images//tabla3_6.png  used on input line 722.
+(pdftex.def)             Requested size: 429.3521pt x 172.40501pt.
+ [61 <./images//tabla3_4.png> <./images//tabla3_5.png>]
+<./images//tabla3_7.png, id=282, 515.67656pt x 557.08125pt>
+File: ./images//tabla3_7.png Graphic file (type png)
+<use ./images//tabla3_7.png>
+Package pdftex.def Info: ./images//tabla3_7.png  used on input line 732.
+(pdftex.def)             Requested size: 429.3521pt x 463.83939pt.
+ [62 <./images//tabla3_6.png>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [63 <./images//tabla3_7.png>]
+<./images//figura3_3.png, id=291, 746.03719pt x 358.33875pt>
+File: ./images//figura3_3.png Graphic file (type png)
+<use ./images//figura3_3.png>
+Package pdftex.def Info: ./images//figura3_3.png  used on input line 745.
+(pdftex.def)             Requested size: 386.41426pt x 185.60454pt.
+<./images//figura3_4.png, id=292, 639.89063pt x 271.76532pt>
+File: ./images//figura3_4.png Graphic file (type png)
+<use ./images//figura3_4.png>
+Package pdftex.def Info: ./images//figura3_4.png  used on input line 756.
+(pdftex.def)             Requested size: 386.41426pt x 164.11372pt.
+ [64 <./images//figura3_3.png>]
+<./images//tabla3_8.png, id=297, 1024.57782pt x 539.01375pt>
+File: ./images//tabla3_8.png Graphic file (type png)
+<use ./images//tabla3_8.png>
+Package pdftex.def Info: ./images//tabla3_8.png  used on input line 767.
+(pdftex.def)             Requested size: 472.28992pt x 248.45926pt.
+
+Overfull \hbox (42.93782pt too wide) in paragraph at lines 767--768
+[][] 
+ []
+
+<./images//figura3_5.png, id=298, 626.34pt x 404.26031pt>
+File: ./images//figura3_5.png Graphic file (type png)
+<use ./images//figura3_5.png>
+Package pdftex.def Info: ./images//figura3_5.png  used on input line 778.
+(pdftex.def)             Requested size: 300.54515pt x 193.98723pt.
+
+Underfull \vbox (badness 3179) has occurred while \output is active []
+
+ [65 <./images//figura3_4.png>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [66 <./images//tabla3_8.png> <./images//figura3_5.png>]
+<./images//figura3_6.png, id=308, 869.49844pt x 579.66562pt>
+File: ./images//figura3_6.png Graphic file (type png)
+<use ./images//figura3_6.png>
+Package pdftex.def Info: ./images//figura3_6.png  used on input line 790.
+(pdftex.def)             Requested size: 343.48299pt x 228.98752pt.
+ [67 <./images//figura3_6.png>]
+<./images//figura3_7.png, id=314, 405.9165pt x 266.1945pt>
+File: ./images//figura3_7.png Graphic file (type png)
+<use ./images//figura3_7.png>
+Package pdftex.def Info: ./images//figura3_7.png  used on input line 805.
+(pdftex.def)             Requested size: 257.61388pt x 168.94226pt.
+<./images//figura3_8.png, id=315, 603.0028pt x 429.85594pt>
+File: ./images//figura3_8.png Graphic file (type png)
+<use ./images//figura3_8.png>
+Package pdftex.def Info: ./images//figura3_8.png  used on input line 814.
+(pdftex.def)             Requested size: 300.54515pt x 214.2453pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [68 <./images//figura3_7.png>]
+<./images//figura3_9.png, id=320, 319.94531pt x 268.75406pt>
+File: ./images//figura3_9.png Graphic file (type png)
+<use ./images//figura3_9.png>
+Package pdftex.def Info: ./images//figura3_9.png  used on input line 824.
+(pdftex.def)             Requested size: 128.80693pt x 108.19685pt.
+ [69 <./images//figura3_8.png> <./images//figura3_9.png>]
+<./images//figura3_10.png, id=326, 302.63063pt x 265.74281pt>
+File: ./images//figura3_10.png Graphic file (type png)
+<use ./images//figura3_10.png>
+Package pdftex.def Info: ./images//figura3_10.png  used on input line 837.
+(pdftex.def)             Requested size: 214.67604pt x 188.5084pt.
+
+[70 <./images//figura3_10.png>]
+<./images//figura3_11.png, id=331, 433.62pt x 241.65282pt>
+File: ./images//figura3_11.png Graphic file (type png)
+<use ./images//figura3_11.png>
+Package pdftex.def Info: ./images//figura3_11.png  used on input line 853.
+(pdftex.def)             Requested size: 257.61388pt x 143.57318pt.
+<./images//figura3_12.png, id=332, 1143.67274pt x 543.83176pt>
+File: ./images//figura3_12.png Graphic file (type png)
+<use ./images//figura3_12.png>
+Package pdftex.def Info: ./images//figura3_12.png  used on input line 863.
+(pdftex.def)             Requested size: 386.41426pt x 183.7469pt.
+
+Underfull \vbox (badness 3646) has occurred while \output is active []
+
+ [71 <./images//figura3_11.png>]
+<./images//figura3_13.png, id=337, 740.7675pt x 554.82281pt>
+File: ./images//figura3_13.png Graphic file (type png)
+<use ./images//figura3_13.png>
+Package pdftex.def Info: ./images//figura3_13.png  used on input line 875.
+(pdftex.def)             Requested size: 257.61388pt x 192.9464pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [72 <./images//figura3_12.png>]
+<./images//tabla3_9.png, id=342, 892.83563pt x 551.81157pt>
+File: ./images//tabla3_9.png Graphic file (type png)
+<use ./images//tabla3_9.png>
+Package pdftex.def Info: ./images//tabla3_9.png  used on input line 887.
+(pdftex.def)             Requested size: 472.28992pt x 291.8946pt.
+
+Overfull \hbox (42.93782pt too wide) in paragraph at lines 887--888
+[][] 
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [73 <./images//figura3_13.png>]
+<./images//figura3_14.png, id=348, 642.14906pt x 374.90062pt>
+File: ./images//figura3_14.png Graphic file (type png)
+<use ./images//figura3_14.png>
+Package pdftex.def Info: ./images//figura3_14.png  used on input line 900.
+(pdftex.def)             Requested size: 257.61388pt x 150.4038pt.
+ [74 <./images//tabla3_9.png>]
+<./images//figura3_15.png, id=353, 624.83438pt x 382.42876pt>
+File: ./images//figura3_15.png Graphic file (type png)
+<use ./images//figura3_15.png>
+Package pdftex.def Info: ./images//figura3_15.png  used on input line 910.
+(pdftex.def)             Requested size: 257.61388pt x 157.6721pt.
+<./images//figura3_16.png, id=354, 663.98062pt x 423.08063pt>
+File: ./images//figura3_16.png Graphic file (type png)
+<use ./images//figura3_16.png>
+Package pdftex.def Info: ./images//figura3_16.png  used on input line 919.
+(pdftex.def)             Requested size: 214.67604pt x 136.78944pt.
+ [75 <./images//figura3_14.png> <./images//figura3_15.png>]
+<./images//figura3_17.png, id=360, 521.69907pt x 568.37344pt>
+File: ./images//figura3_17.png Graphic file (type png)
+<use ./images//figura3_17.png>
+Package pdftex.def Info: ./images//figura3_17.png  used on input line 930.
+(pdftex.def)             Requested size: 214.67604pt x 233.88454pt.
+ [76 <./images//figura3_16.png> <./images//figura3_17.png>]
+<./images//figura3_18.png, id=366, 290.58563pt x 228.10219pt>
+File: ./images//figura3_18.png Graphic file (type png)
+<use ./images//figura3_18.png>
+Package pdftex.def Info: ./images//figura3_18.png  used on input line 943.
+(pdftex.def)             Requested size: 214.67604pt x 168.51799pt.
+<./images//figura3_19.png, id=367, 596.98032pt x 554.82281pt>
+File: ./images//figura3_19.png Graphic file (type png)
+<use ./images//figura3_19.png>
+Package pdftex.def Info: ./images//figura3_19.png  used on input line 952.
+(pdftex.def)             Requested size: 343.48299pt x 319.23228pt.
+ [77 <./images//figura3_18.png>]
+<./images//figura3_20.png, id=372, 768.62157pt x 158.84344pt>
+File: ./images//figura3_20.png Graphic file (type png)
+<use ./images//figura3_20.png>
+Package pdftex.def Info: ./images//figura3_20.png  used on input line 964.
+(pdftex.def)             Requested size: 386.41426pt x 79.85779pt.
+ [78 <./images//figura3_19.png>]
+<./images//figura3_21.png, id=377, 679.78969pt x 554.82281pt>
+File: ./images//figura3_21.png Graphic file (type png)
+<use ./images//figura3_21.png>
+Package pdftex.def Info: ./images//figura3_21.png  used on input line 974.
+(pdftex.def)             Requested size: 343.48299pt x 280.33992pt.
+
+[79 <./images//figura3_20.png> <./images//figura3_21.png>]
+<./images//figura3_22.png, id=384, 934.24031pt x 278.54062pt>
+File: ./images//figura3_22.png Graphic file (type png)
+<use ./images//figura3_22.png>
+Package pdftex.def Info: ./images//figura3_22.png  used on input line 984.
+(pdftex.def)             Requested size: 343.48299pt x 102.40813pt.
+<./images//figura3_23.png, id=385, 1444.64719pt x 590.95781pt>
+File: ./images//figura3_23.png Graphic file (type png)
+<use ./images//figura3_23.png>
+Package pdftex.def Info: ./images//figura3_23.png  used on input line 994.
+(pdftex.def)             Requested size: 343.48299pt x 140.50722pt.
+ [80 <./images//figura3_22.png> <./images//figura3_23.png>]
+<./images//figura3_24.png, id=391, 1437.87187pt x 651.93562pt>
+File: ./images//figura3_24.png Graphic file (type png)
+<use ./images//figura3_24.png>
+Package pdftex.def Info: ./images//figura3_24.png  used on input line 1004.
+(pdftex.def)             Requested size: 429.3521pt x 194.66699pt.
+<./images//figura3_25.png, id=392, 1031.052pt x 546.24075pt>
+File: ./images//figura3_25.png Graphic file (type png)
+<use ./images//figura3_25.png>
+Package pdftex.def Info: ./images//figura3_25.png  used on input line 1013.
+(pdftex.def)             Requested size: 343.48299pt x 181.96867pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [81 <./images//figura3_24.png>] [82 <./images//figura3_25.png>] [83]
+<./images//figura3_26.png, id=404, 774.895pt x 825.0825pt>
+File: ./images//figura3_26.png Graphic file (type png)
+<use ./images//figura3_26.png>
+Package pdftex.def Info: ./images//figura3_26.png  used on input line 1066.
+(pdftex.def)             Requested size: 429.3521pt x 457.15823pt.
+
+Underfull \vbox (badness 3492) has occurred while \output is active []
+
+ [84]
+<./images//figura3_27.png, id=408, 922.04475pt x 509.5035pt>
+File: ./images//figura3_27.png Graphic file (type png)
+<use ./images//figura3_27.png>
+Package pdftex.def Info: ./images//figura3_27.png  used on input line 1075.
+(pdftex.def)             Requested size: 343.48299pt x 189.80388pt.
+
+Underfull \vbox (badness 4429) has occurred while \output is active []
+
+ [85 <./images//figura3_26.png>]
+<./images//figura3_28.png, id=414, 1144.87724pt x 522.15076pt>
+File: ./images//figura3_28.png Graphic file (type png)
+<use ./images//figura3_28.png>
+Package pdftex.def Info: ./images//figura3_28.png  used on input line 1084.
+(pdftex.def)             Requested size: 386.41426pt x 176.23819pt.
+ [86 <./images//figura3_27.png> <./images//figura3_28.png>]
+Cap\'{\i }tulo 4.
+<./images//tabla4_1.png, id=420, 685.3605pt x 290.2845pt>
+File: ./images//tabla4_1.png Graphic file (type png)
+<use ./images//tabla4_1.png>
+Package pdftex.def Info: ./images//tabla4_1.png  used on input line 1108.
+(pdftex.def)             Requested size: 429.3521pt x 181.85257pt.
+[87
+
+] [88 <./images//tabla4_1.png>] [89] [90
+
+]
+Cap\'{\i }tulo 5.
+[91] [92]
+Overfull \hbox (43.7899pt too wide) in paragraph at lines 1169--1170
+\OT1/cmr/m/n/12 su in-no-va-dor chat-bot pa-ra agri-cul-to-res. Eju.tv. [en l
+nea]<https://eju.tv/2021/11/alicorp-
+ []
+
+
+Overfull \hbox (19.46066pt too wide) in paragraph at lines 1169--1170
+\OT1/cmr/m/n/12 recibe-reconocimiento-a-la-resiliencia-por-su-innovador-chatbot
+-para-agricultores/> 
+ []
+
+
+Overfull \hbox (37.59244pt too wide) in paragraph at lines 1177--1178
+\OT1/cmr/m/n/12 ta Edi-cion. Mc-Graw Hil, Mexi-co: Dis-tri-to Fe-de-ral. [en 
+lnea]<https://www.uca.ac.cr/wp-
+ []
+
+
+Overfull \hbox (57.09785pt too wide) in paragraph at lines 1179--1180
+\OT1/cmr/m/n/12 Bu-si-ness Re-view. Es-ta-dos Uni-dos: Mas-sa-chu-setts. [en l
+nea] <https://hbr.org/2019/05/does-
+ []
+
+[93
+
+]
+Overfull \hbox (16.33516pt too wide) in paragraph at lines 1185--1186
+\OT1/cmr/m/n/12 scien-ce pro-jects. [enlnea] <docs.microsoft.com/enus/azure/m
+achine-learning/team-
+ []
+
+
+Overfull \hbox (36.43271pt too wide) in paragraph at lines 1187--1188
+\OT1/cmr/m/n/12 lnea] <https://www.businessinsider.com/who-launches-whatsapp-
+chatbot-coronavirus-
+ []
+
+
+Overfull \hbox (17.43839pt too wide) in paragraph at lines 1189--1190
+\OT1/cmr/m/n/12 kOwl, [en lnea]<https://www.thinkowl.com/blog/are-chatbots-be
+tter-than-human-
+ []
+
+
+Overfull \hbox (217.51088pt too wide) in paragraph at lines 1191--1192
+\OT1/cmr/m/n/12 cologi-cos. La Razon Es-pa~na [en lnea] <https://www.larazo
+n.es/salud/20211214/r6i4srr5drcbtowjxmsy65c2ri.html>Ramrez
+ []
+
+
+Overfull \hbox (8.26747pt too wide) in paragraph at lines 1194--1195
+\OT1/cmr/m/n/12 lnea] Dis-po-ni-ble en: <https://www.cm.com/blog/chatbot-vs-l
+ive-chat/>[consulta:
+ []
+
+[94] (borrador.aux
+LaTeX Info: Redefining \. on input line 8.
+LaTeX Info: Redefining \% on input line 8.
+) )
+(\end occurred inside a group at level 1)
+
+### simple group (level 1) entered at line 1037 ({)
+### bottom level 
+Here is how much of TeX's memory you used:
+ 6782 strings out of 479081
+ 106388 string characters out of 2862515
+ 420429 words of memory out of 3000000
+ 24409 multiletter control sequences out of 15000+600000
+ 410905 words of font info for 54 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 57i,6n,66p,1373b,457s stack positions out of 5000i,500n,10000p,200000b,80000s
+<C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.
+pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmbxti10.pfb><C:/Pr
+ogram Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/M
+iKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files/MiKTeX/fonts/ty
+pe1/public/amsfonts/cm/cmti12.pfb>
+Output written on borrador.pdf (106 pages, 6701740 bytes).
+PDF statistics:
+ 467 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 261 words of extra memory for PDF output out of 10000 (max. 10000000)
+

@@ -1,0 +1,44 @@
+\babel@toc {spanish}{}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {1.1}{\ignorespaces Implementación gráfica de la metodología UWE basado en las fases, vistas y aspectos desarrollados\relax }}{16}{}%
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Modelo basado en Recuperación de Texto\relax }}{24}{}%
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Sistema de Dialogo de finalización de tareas compuestas\relax }}{28}{}%
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Clasificación de intención y parámetros\relax }}{33}{}%
+\contentsline {figure}{\numberline {2.4}{\ignorespaces Flujo conversacional con el uso de contextos de entrada y salida\relax }}{35}{}%
+\contentsline {figure}{\numberline {2.5}{\ignorespaces Relación semántica de Word2Vec\relax }}{42}{}%
+\contentsline {figure}{\numberline {2.6}{\ignorespaces Ejemplo gráfico de una neurona y redes neuronales\relax }}{44}{}%
+\contentsline {figure}{\numberline {2.7}{\ignorespaces Funciones de activación \textit {ReLU y LeakyReLU} \relax }}{46}{}%
+\contentsline {figure}{\numberline {2.8}{\ignorespaces Representación de entrada y salida de una red recurrente \relax }}{48}{}%
+\contentsline {figure}{\numberline {2.9}{\ignorespaces Representación de entrada y salida de una LSTM y su estado de memoria \relax }}{49}{}%
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Ejemplo componentes de una historia de usuario\relax }}{56}{}%
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Portal web de la división de gestiones admisiones y registros\relax }}{58}{}%
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Ejemplo de flujo contextual de dialogflow.\relax }}{64}{}%
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Ejemplo de las estructuras definidas en la ISO 5807.\relax }}{65}{}%
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Diagrama de casos de uso para la primera iteración.\relax }}{66}{}%
+\contentsline {figure}{\numberline {3.6}{\ignorespaces Actividad Consulta Trámite.\relax }}{67}{}%
+\contentsline {figure}{\numberline {3.7}{\ignorespaces Backend de comunicación con la interfaz y el agente.\relax }}{68}{}%
+\contentsline {figure}{\numberline {3.8}{\ignorespaces Estructura de la interfaz de usuario pública.\relax }}{69}{}%
+\contentsline {figure}{\numberline {3.9}{\ignorespaces Modelo de control de respuesta.\relax }}{69}{}%
+\contentsline {figure}{\numberline {3.10}{\ignorespaces Diagrama de secuencia primera iteración apretura conversacional\relax }}{70}{}%
+\contentsline {figure}{\numberline {3.11}{\ignorespaces Componentes desarrollados en la fase inicial de desarrollo de interfaz de usuario\relax }}{71}{}%
+\contentsline {figure}{\numberline {3.12}{\ignorespaces Resultado de la primera estructura de la interfaz de usuario usando el marco de trabajo NextJS\relax }}{72}{}%
+\contentsline {figure}{\numberline {3.13}{\ignorespaces Comunicación con la interfaz del cliente modo día y noche con las respuestas rápidas implementadas mediante uso de {\it payload}\relax }}{73}{}%
+\contentsline {figure}{\numberline {3.14}{\ignorespaces Caso de uso acceso a administrador\relax }}{75}{}%
+\contentsline {figure}{\numberline {3.15}{\ignorespaces Caso de uso control de respuestas, aciertos y fallos\relax }}{75}{}%
+\contentsline {figure}{\numberline {3.16}{\ignorespaces Caso de uso {\it builder} y {\it playground} más extensiones\relax }}{76}{}%
+\contentsline {figure}{\numberline {3.17}{\ignorespaces Actividad desarrollada en la construcción de un flujo conversacional. \relax }}{76}{}%
+\contentsline {figure}{\numberline {3.18}{\ignorespaces Modelo de administradores en la base de datos. \relax }}{77}{}%
+\contentsline {figure}{\numberline {3.19}{\ignorespaces Modelo de constructor de circuitos de conversación. \relax }}{78}{}%
+\contentsline {figure}{\numberline {3.20}{\ignorespaces Proceso de registro e inicio de sesión por medio de {\it token}. \relax }}{79}{}%
+\contentsline {figure}{\numberline {3.21}{\ignorespaces Páginas de registro e inicio de sesión. \relax }}{79}{}%
+\contentsline {figure}{\numberline {3.22}{\ignorespaces Estado principal página de constructor. \relax }}{80}{}%
+\contentsline {figure}{\numberline {3.23}{\ignorespaces Estado de construcción circuito de conversación. \relax }}{80}{}%
+\contentsline {figure}{\numberline {3.24}{\ignorespaces Módulo {\it playground} en un estado de prueba en interfaz de cliente. \relax }}{81}{}%
+\contentsline {figure}{\numberline {3.25}{\ignorespaces Módulo imágenes de apoyo alojado en {\it cloudinary}. \relax }}{82}{}%
+\contentsline {figure}{\numberline {3.26}{\ignorespaces Circuito conversacional carrera paralela. \relax }}{85}{}%
+\contentsline {figure}{\numberline {3.27}{\ignorespaces Circuito conversacional físico almacenado en base de datos y servicios de conversación - carrera paralela. \relax }}{86}{}%
+\contentsline {figure}{\numberline {3.28}{\ignorespaces Pruebas iniciales del circuito implementado para carrera paralela. \relax }}{86}{}%
+\addvspace {10\p@ }
+\addvspace {10\p@ }
