@@ -8,6 +8,8 @@
 \usepackage{graphicx}
 \usepackage{enumitem}
 \usepackage{float}
+\usepackage{hyperref}
+
 \usepackage{hanging}
 \graphicspath{ {./images/} }
 \usepackage[left=4cm,right=2.5cm,top=4cm,bottom=2.5cm]{geometry}
@@ -35,6 +37,9 @@
   \addcontentsline{toc}{section}{\protect\numberline{\thesection}#1}%
   \sectionmark{#1}}
 
+\usepackage{tocloft}
+\setlength{\cftsecindent}{0pt}% Remove indent for \section
+\setlength{\cftsubsecindent}{0pt}% Remove indent for \subsection
 
 \begin{document}
 \pagenumbering{gobble}
@@ -67,7 +72,9 @@ The document is concluded with the sample and delivery of the customer service a
 
 \newpage
 \tableofcontents
+\newpage
 \listoffigures
+\newpage
 \listoftables
 
 %% Sacar indice, indice de figuras, índice de tablas
@@ -260,6 +267,8 @@ Se concluye que en este proyecto es necesaria la combinación de ambas metodolog
 
 \chapter{MARCO TEÓRICO}
 
+En este capítulo se desarrollan conceptos y teorías con respecto al conocimiento tanto en el desarrollo e implementación de una aplicación web, las bases fundamentales para el desarrollo de un agente de conversación y finalmente el análisis sobre el conjunto objetivo de trámites a tratar; todos estos conceptos representaron las bases académicas para el desarrollo de este trabajo siendo sintetizados para profundización posterior del lector.
+
 \section{AGENTE VIRTUAL}
 Según Kompella (2018): “La primera acuñación de \textit{chatterbot}, fue en 1994 por Michael Mauldin para definir sistemas conversacionales que intentan pasar el test de Turing, ELIZA creado en 1996 por Joseph Weizenbaum es conocida por ser el primer sistema conversacional en pasar  este Test parcialmente, el modelo de ELIZA entendía la entrada del usuario y trataba de emparejar las palabras clave con respuestas predefinidas, su diseño era el de conversar a través de emparejamiento de patrones y sustituciones; dando la ilusión que el contexto de la conversación era entendido por ELIZA.”
 
@@ -274,7 +283,7 @@ PARRY creado en 1972 por el psiquiatra Kenneth Colby, trataba de simular el mode
 \end{itemize}
 
 
-ALICE (\textit{Artificial Linguistic Internet Computer Entity}) es un \textit{chatbot} creado en 1995 por el Doctor Richard Wallace en AIMG (\textit{Artificial Intelligence Markup Language}), un dialecto XML para la creación de asistentes virtuales. Inspirado por ELIZA ganando el premio Loebner en enero de 2000. La primera implementación fue llamada \textit{Program A} que fue escrito en lenguaje establecido en conceptos de conjuntos de teoría y lógica matemática llamada SETL. En 1998 se reescribió en JAVA. El \textit{program B} fue implementado en 1999, cuando 300 desarrolladores de \textit{software} se reunieron para escribir a ALICE y AIML cambió gramáticamente para ser compatible totalmente con XML, y ganó el premio Loebner como \textit{program B} en 2000. Ya para los 2000 el \textit{programa C} fue creado en implementación AIML basada en C y C++ por Jacco Bikker, en noviembre de 2000, el \textit{programa D} fue implementado con el nombre DANY por Jon Baer. El \textit{programa B} renombrado con nuevas características usando Java 2 era implementado como \textit{program D} y su implementación fue apoyada por el ALICE (Gaikwad, 2019).
+ALICE (\textit{Artificial Linguistic Internet Computer Entity}) es un \textit{chatbot} creado en 1995 por el Doctor Richard Wallace en AIMG (\textit{Artificial Intelligence Markup Language}), un dialecto XML para la creación de asistentes virtuales. Inspirado por ELIZA ganando el premio Loebner en enero de 2000. La primera implementación fue llamada \textit{Program A} que fue escrito en lenguaje establecido en conceptos de conjuntos de teoría y lógica matemática llamada SETL. En 1998 se reescribió en JAVA. El \textit{program B} fue implementado en 1999, cuando 300 desarrolladores de \textit{software} se reunieron para escribir a ALICE y AIML cambió gramáticamente para ser compatible totalmente con XML, y ganó el premio Loebner como \textit{program B} en 2000 (Gaikwad, 2019).
 
 Jabberwacky es un \textit{chatbot} creado por Rollo Carpenter, un programador británico, pensado para ser un \textit{bot} conversacional que imitara la interacción humana natural para propósitos de entretenimiento. Fue uno de los primeros intentos de \textit{chatbots} que implementando AI simulaba conversaciones humanas significativas. Ganando el premio Loebner en 2005 y 2006, una competición anual de test de \textit{chatbots}. Jabberwacky era capaz de aprender continuamente durante la conversación, los desarrolladores declararon que Jabberwacky no es implementado usando ningún modelo de vida artificial (sin redes neuronales o emparejamiento de patrones \textit{fuzzy}) y es basado puramente en algoritmos basados en heurística, no tenía ninguna regla codificada, en cambio se basa en la retroalimentación, almacenando las entradas de los usuarios y determinando la respuesta más apropiada usando técnicas de emparejamiento de patrones contextuales. Puesto línea desde 1997, Jabberwacky también fue re escrito en nuevos lenguajes (Gaikwad, 2019).
 
@@ -344,16 +353,17 @@ Según Raj (2018) “Hay tres pasos que uno debe seguir antes de construir un as
 
 Según Bhashkar (2021): 'un asistente virtual se divide en sistemas que se dedican a una tarea en específico que al unirlos nos da una entrada que es la pregunta del usuario y una salida que es la respuesta que se refinó, condicionó y se calculó para que sea una respuesta a la pregunta con cierto grado de confiabilidad'
 
-\begin{figure}[!ht]
-\includegraphics[width=1\textwidth]{figura2_2}
+\begin{figure}[H]
+\begin{center}
+\includegraphics[width=0.7\textwidth]{figura2_2}
 \setcaptioncitation{(Microsoft, 2016)}
 \caption{Sistema de Dialogo de finalización de tareas compuestas}
-\label{tab:figura2_2} 
+\label{tab:figura2_2}
+\end{center}
 \end{figure}
 
 La figura 2.2 muestra las distintas fases que pasa una interacción con un agente virtual, a continuación se describen las dos partes fundamentales que tiene un agente: 
 
-\newpage
 \begin{enumerate}[label=(\alph*)]
 \item \textbf{Entendimiento del lenguaje natural}. - La unidad NLU por sus siglas en inglés, es responsable de transformar el enunciado del usuario en un marco semántico predefinido de acuerdo con las convenciones del sistema, es decir, en un formato comprensible para el sistema. Esto incluye una tarea de llenado de ranuras y detección de intenciones. Como podemos ver, las intenciones y los espacios definen la naturaleza de dominio cerrado del asistente virtual (Bashkar, 2021).
 
@@ -464,7 +474,7 @@ El procesamiento del lenguaje natural es un área de investigación en informát
 \par 
 Lo interesante del proceso es que es difícil. Las máquinas con la capacidad de procesar algo natural no son naturales. Es como construir un edificio que puede hacer algo útil con diagramas arquitectónicos. Cuando el \textit{software} puede procesar lenguajes que no están diseñados para que las máquinas los entiendan, parece mágico, algo que pensamos que era una capacidad exclusivamente humana (Len, 2019).
 \par 
-Es un campo de la inteligencia artificial que permite a las computadoras analizar y entender el lenguaje humano, tenemos cientos de métodos como NLU \textit{Natural Language Understanding} que es un subconjunto de NLP, y minería de datos son subconjuntos de AI, los asistentes virtuales no son una caja negra que hace magia, y todo funciona bien, se debería saber que no hay nada artificial en AI, en esencia son algoritmos de aprendizaje profundo o automático escrito por personas, corriendo por debajo, aún no se ha alcanzado la etapa en donde las máquinas hayan alcanzado a analizar como los humanos para poder percibirse a sí mismas inteligencia, se debe escribir algoritmos y usar técnicas de NLP, que es considerado el cerebro de los chatbots que procesa los datos crudos, los afinan, limpian y los prepara para las acciones apropiadas (Raj, 2018).
+Es un campo de la inteligencia artificial que permite a las computadoras analizar y entender el lenguaje humano, tenemos cientos de métodos como NLU \textit{Natural Language Understanding}, se debería saber que no hay nada artificial en AI, en esencia son algoritmos de aprendizaje profundo o automático escrito por personas, corriendo por debajo, aún no se ha alcanzado la etapa en donde las máquinas hayan alcanzado a analizar como los humanos para poder percibirse a sí mismas inteligencia, se debe escribir algoritmos y usar técnicas de NLP, que es considerado el cerebro de los chatbots que procesa los datos crudos, los afinan, limpian y los prepara para las acciones apropiadas (Raj, 2018).
 
 \subsection{TOKENIZACIÓN}
 La tokenización trata de segmentar un texto en \textit{tokens} es un tipo de segmentación de documento. La segmentación rompe el texto en pequeños partes o segmentos conteniendo la mayor información posible, sean párrafos, oraciones, frases o \textit{token} usualmente palabras. Un \textit{tokenizer} en el contexto de compiladores usado para compilar lenguajes de programación se llama \textit{scanner} o \textit{lexer}. El vocabulario conjunto de tokens se llama \textit{lexicon}. La manera más simple de tokenizar un texto es por el espacio entre palabras como delimitador. Ahora se puede crear un vector representación para cada palabra llamado “\textit{One hot vectors}”, una secuencia de estos vectores puede capturar el texto original en secuencias de vectores. Los vectores \textit{one hot} son súper dispersos y contienen solo un valor distinto de cero en cada vector de fila. Cada fila de la tabla es un vector de fila binario qué también se le llama vector único: todas menos una de las posiciones (columnas) en una fila son 0 o están en blanco. Solo una columna, o posición en el vector es distinta de cero. Lo importante es convertir una oración de palabras del lenguaje natural en una secuencia de números o vectores (Len, 2019).
@@ -494,10 +504,12 @@ La lematización está estrechamente relacionada con la lematización, pero la l
 Gaikwad (2019) asegura que: “Ya que las computadoras son incapaces de entender el concepto de palabras, un mecanismo para representar texto es usar la entrada de proceso de lenguaje natural. Para una tarea NLP en aprendizaje profundo, usamos una capa de preprocesamiento en la arquitectura RNN llamada \textit{embedding layer}. El mecanismo para el mapeado de texto se llama \textit{word vector}, el cual envuelve representación de palabras u oraciones usando vectores de números reales. \textit{Neural word embedding} permite al contexto ser capturado en oraciones aprendiendo las semánticas de distribución de las palabras. \textit{Word embeddings} son usados para capturar el contexto y representar las relaciones entre palabras. Los modelos más populares para creación y aprendizaje Word2Vec y GloVe. Word2Vec toma un corpus grande de texto como entrada y crea un espacio de vector dimensional, usualmente de cientos de dimensiones. Cada palabra en el corpus es asignada a un vector espacio y posicionada así las palabras las cuales tienen similar contexto en el corpus están cercanas en proximidad”. 
 
 \begin{figure}[H]
+\begin{center}
 \includegraphics[width=0.8\textwidth]{figura2_5}
 \setcaptioncitation{(Len, 2019)}
 \caption{Relación semántica de Word2Vec}
 \label{tab:figura2_5} 
+\end{center}
 \end{figure}
 
 Como se muestra en la figura 2.5 Word2Vec pueden usar de dos modelos de arquitecturas para producir una representación distribuida de palabras: \textit{continuous bag-of-words} (CBOW) o \textit{skip-gram} continuo. En la arquitectura de \textit{continuos bag-of-words}, el modelo predice la palabra acutal de una ventana de \textit{surrounding context words}. El orden del contexto de palabras no influye en la predicción. En la arquitectura \textit{skip-gram} pesos cercanos de palabras de contexto son más pesadas que mas distantes palabras de contexto. Acorde a los autores CBOW es más rápido mientras que skip-gram es lento pero hace un mejor trabajo para palabras infrecuentes. Para preprocesado, un modelo Word2Vec pre entrenado es usado para crear vectores \textit{word embedding} para algún corpus (Bhagwat, 2019).
@@ -505,12 +517,17 @@ Como se muestra en la figura 2.5 Word2Vec pueden usar de dos modelos de arquitec
 \subsection{REDES NEURONALES ARTIFICIALES}
 Las redes neuronales artificiales presentan una estructura flexible inspirados por el principio de procesamiento de información en sistemas biológicos una red neuronal de un ser humano, consiste en representaciones matemáticas de unidades de procesamiento conectadas llamadas neuronas artificiales. Como sucede con la sinapsis en el cerebro cada conexión entre neuronas transmiten señales cuya fuerza puede ser amplificada o atenuada por un peso que es continuamente ajustado durante el proceso de aprendizaje forzando conexiones entre neuronas o debilitándola. 
 
+
 \begin{figure}[H]
-\includegraphics[width=0.8\textwidth]{figura2_6}
+\begin{center}
+\includegraphics[width=0.3\textwidth]{figura2_6}
 \setcaptioncitation{(MengZenzhu, 2020)}
 \caption{Ejemplo gráfico de una neurona y redes neuronales}
 \label{tab:figura2_6} 
+\end{center}
 \end{figure}
+
+
 
 En la figura 2.6 se muestra como son las neuronas, se puede apreciar como cada señal es procesada por neuronas subsecuentes si se excede cierto umbral determinado por una función de activación, típicamente las neuronas se organizan en capas, una capa de entrada recibe datos de entrada sean analíticos, imágenes, sonido y una capa de salida produce el resultado final que se espera, la variabilidad de una red neuronal en capas y cantidad de neuronas dependen de la elección de propiedades como la taza de aprendizaje o la función de activación que constituyen hiper-parámetros de cada modelo que deben ser actualizados manualmente juzgados por una rutina de optimización (Goodfellow et al., 2017).
 
@@ -580,38 +597,165 @@ Para realizar la implementación del prototipo del agente conversacional se recu
 \label{tab:tabla2_2} 
 \end{table}
 
-\section{COMPRENSIÓN DE TRÁMITES UNIVERSITARIOS}
+\section{COMPRENSIÓN DE TRÁMITES UNIVERSITARIOS Y ADMISIONES}
 
-Para poder realizar modelos de flujo conversacionales es necesario conocer cuáles son los diferentes trámites administrativos de pre grado cuyas unidades son Gestiones, Admisiones, Traspasos y más instancias de gestión y administración, a nivel Universidad. 
+Según Gúzman A. (1999) un trámite se define como: "Un conjunto de operaciones relacionadas, ejecutadas por varias personas, que tiene un fin o propósito. Definidos como procesos distribuidos de manejo, almacenamiento y procesamiento de información dentro del ámbito de computación. Empero, la invención, supervisión y desarrollo de trámites han estado a cargo de personas no informáticas."
 \par
-Con la obtención de la matrícula se tiene una condición e estudiante regular, con este puede inscribirse en la carrera que aprobó, la matricula sirve para la identificación para la participación en procesos electorales, servicios de salud, guardería, bibliotecas, poder rendir exámenes y muchos otros servicios que ofrece la Universidad, siendo importante como pre requisito en el momento de egreso. 
+La representación de un trámite se puede ver gráficamente como una red dirigida, cuyos nodos son actividades atómicas también llamadas tareas, cuyos arcos son entregables internos, con un nodo inicial y uno o más nodos finales (Palomino, 1999)
 \par
-Al pasarse del calendario de matriculación se deberá realizar la matriculación para rezagados cumpliendo requisitos en la División de gestiones, admisiones y registros de la UMSA, en el edificio Monoblock Central, adjuntando la autorización escrita del director de la carrera y el pago de la multa establecida a estudiantes rezagados, las horas de atención serán respectivas a las oficinas que atienden en división de gestiones; la matriculación no genera el derecho de inscripción extemporánea, debiendo atenerse al calendario académico aprobado. 
+La Figura 2.10 muestra un trámite enfocado a una solicitud de licencia de manejo, donde se pueden ver diferentes casos en cada nodo y las tareas que se debe seguir hasta llegar a algún nodo final. 
 
-\subsection{CARRERA PARALELA}
-Es el proceso a partir del cual el estudiante puede desplazarse de una unidad académica a otra o cursar simultáneamente dos carreras previo cumplimiento de requisitos y disponibilidad de plazas programadas por cada carrera.
+\begin{figure}[H]
+\includegraphics[width=0.8\textwidth]{figura2_10}\\
+\setcaptioncitation{(Gúzman, 1999)}
+\caption{Representación de un trámite}
+\label{tab:figura2_10} 
+\end{figure}
+
+\subsection{RECOPILACIÓN DE TRÁMITES OBJETIVOS}
+La Universidad Mayor de San Andrés tiene distintas unidades distribuidas tanto en rectorado y vicerrectorado; existen en estas unidades o divisiones ciertas actividades enfocadas a la atención de las necesidades académicas del público universitario. La siguiente lista describe el filtrado a las divisiones o unidades de interés inicial: 
 \begin{itemize}
-\item \textbf{Requisitos}.- La disponibilidad y cupos son asignados por cada carrera, siendo algunas por una aprobación mediante resolución de Carrera y Facultad, en base a criterios de políticas de ingreso y egreso, las mismas que son de conocimiento de la División de Gesetiones, Admisiones y registros, estas se publican y otorgan de acuerdo al calendario, previo a cumplimiento de requisitos.
+\item \textbf{División de títulos y diplomas}.- Cuya misión es procesar con eficiencia la atención de todos los trámites para la otorgación de títulos y diplomas a cargo de la Universidad Mayor de San Andrés.
+\item \textbf{División de documentos y archivo}.- Tiene como objetivo 
+organizar, conservar y difundir la documentación o información con valor administrativo, legal, fiscal o histórico, según disposiciones legales institucionales y nacionales. Difusión del patrimonio documental, a través del servicio de consulta e investigación del fondo documental y las series que la componen. 
+\item \textbf{División de gestiones, admisiones y registros}.- Cuya función principal es viabilizar proceso de administración académica, referidos al régimen estudiantil, de acuerdo a normas vigentes, requisitos, programación y calendarios académicos e internos y otros previstos por instancias superiores.
+\item \textbf{División de trabajo social}.- Cuyo objetivo es programar, organizar, gestionar y viabilizar la prestación de servicios sociales de calidad para estudiantes universitarios.
+\item \textbf{División de salud}.- Cuya misión es contribuir a crear en la comunidad universitaria la cultura de la prevención y el autocuidado, mediante programas de promoción de la salud, medicina preventiva y servicios asistenciales, dando mayor énfasis a los sectores de bajos recursos.
+\item \textbf{Admisiones de facultades y carreras}.- Para saber como se puede accedera una carrera se deben tener en cuenta las distintas modalidades y puntos de atención.
 \end{itemize}
 
-\subsection{TRASPASO DE CARRERA}
-El cambio de carrera es el procedimiento de movilidad estudiantil entre las Universidades que forman parte del Sistema Universitario y otras reconocidas por el Articulo 3 del Reglamento de Traspasos, el proceso es similar al traspaso. 
+Acotando la búsqueda de información a los anteriores puntos se procede a revisar cada división o unidad en búsqueda de trámites relacionados al pre grado, filtrando y destacando los nodos a tomar en cuenta para cada trámite. 
 
-\subsection{CARRERA SIMULTÁNEA}
-Este trámite puede considerarse un beneficio a los estudiantes que cuentan con un avance mínimo del 65\% del Plan de Estudios de la carrera de origen y un 60\% en el promedio de notas, más otros requisitos claramente especificados en el manual de funciones. 
+\subsection{DIVISIÓN DE TÍTULOS Y DIPLOMAS}
 
-\subsection{ADMISIÓN ESPECIAL}
-Es el procedimiento académico-administrativo para las personas que deseen iniciar o continuar sus estudios universitarios, quedando exentos de cumplir con la modalidad de admisión vigente, por poseer un título de licenciatura, técnico superior, normal superior y otros que son resultado de convenios especiales con las Universidades del Sistema. 
+Para la búsqueda de información se accedieron a las páginas de redes sociales, como a la página oficial de la división de títulos y diplomas; de las cuales se obtuvo en orden los siguientes trámites que podran ser de interés.
 
-\subsection{READMISIÓN}
-Para la readmisión a un estudiante que hubiera interrumpido sus estudios por más de tres gestiones continuas o más, el requisito fundamental es el vencimiento de por lo menos dos materias
-
-\subsection{TRÁMITE DE CONVALIDACIÓN}
-Es el procedimiento a partir del cual se reconocen y validan los estudios universitarios previa revisión y análisis de los planes y programas contenidos e insertos en la curricula de las diferentes unidades académicas a objeto de establecer las equivalencias éntrelas a signaturas o el reconocimiento de la validez académica de un título académico a nivel del sistema universitario
+\begin{enumerate}[label=(\alph*)]
+\item \textbf{Apostilla certificación única de documentos}.- El Ministerio de Relaciones Exteriores, desde la implementación de la Apostilla Digital, tiene a disposición de los ciudadanos el sitio web que cuenta con información detallada referente a dicho servicio, como también con tutoriales de fácil acceso. 
 \begin{itemize}
-\item Convalidación interna entre planes de estudio.
-\item Convalidación de materias vencidas entre otras carreras de Universidades del sistema de la Universidad boliviana siendo la convalidación si el estudiante hubiere realizado un cambio de carrera, carrera paralela, admisión especial.
-\end{itemize}     
+\item Información principal.- Se considera usar la siguiente información sobre el inicio del trámite: “La Apostilla es un certificado que permite reconocer los documentos públicos bolivianos en el exterior y suprime la exigencia de legalización de documentos públicos extranjeros en el país y será verificada desde cualquier parte del mundo”. Además el enlace a la página oficial del trámite de apostilla.
+\item Solicitud de apostillado.- El ministerio ofrece un video con la información necesaria para iniciar con los documentos necesarios, se ofrece enlace del video, además de la página donde se podrá iniciar la solicitud de apostilla. 
+\item Seguimiento de la apostilla.- También se muestra un video de como poder seguir el trámite de forma remota y la página donde se debe realizar este mismo.
+\item Pago y verificación de apostilla.-Para ambos casos se muestran los videos correspondientes a dicho trámite, además de sus enlaces correspondientes.
+\item Puntos de atención.- Se consideran los puntos físicos de atención como son: la división de títulos y diplomas incluyendo su horarios de atención. 
+\item Páginas de información.- Tanto la página oficial como la de Facebook se difundirán en el chatbot como también los números de atención,  para el ministerio se ofrece la página con puntos de atención.
+\end{itemize}
+
+\item \textbf{Extensión de diploma académico y titulo profesional simultaneo}.- Con modalidades de graduación: Excelencia, Tesis de Grado, Trabajo Dirigido, Internado Rotatorio, Examen de Grado, Proyecto de Grado, Tesina, Monografía, Pasantía, Proyecto de Grado Técnico.
+\begin{itemize}
+\item Inicio trámite.- Se ofrece un video de solicitud de trámite simultaneo: en la página de trámites en línea donde se puede iniciar un trámite
+\item Costos.- Se puede mostrar la siguiente vista de costos: Diploma académico – título profesional (simultaneo) técnico universitario superior Bs. 1.567.- • Diploma académico – título profesional (simultaneo) nacionales licenciatura Bs. 2.820.- • Diploma académico – título profesional (simultaneo) extranjero licenciatura Bs. 5.765.- • Modalidad graduación por excelencia académica solo cancela legalización de resolución Bs. 129
+\item Requisitos de diploma académico o título profesional.- Para revisar los requisitos del diploma académico se ofrece un documento donde se explica a detalle cada requisito.
+\item Más información.- El cronograma de recepción de documentos y entrega de diplomas académicos y profesionales, será difundido en redes sociales. Se ofrece alternativamente la ubicación en \textit{google maps}.
+\end{itemize}
+
+\item \textbf{Diploma Académico}.- Para definir la estructura de este trámite se recomienda que el primer nodo sea informativo sobre que es y cuando se requiere; tratar se considera resumir: El Diploma Académico es un documento que se requiere para realizar el trámite del Título en Provisión Nacional Universitario de cualquier Carrera Universitaria y en cualquier universidad pública de Bolivia, esta dirigido a los universitarios que hayan concluido sus estudios universitarios en pre-grado y rendido satisfactoriamente el examen de tesis o cumplido con cualquiera de las modalidades de egreso.
+\begin{itemize}
+\item Requisitos previos.- Para la presentación de documentos, ingresar a la página de trámites en línea, y ver los requisitos que se deben cumplir. 
+\item Costos.- Entre los costos más importantes a considerar: esta el formulario de solicitud de trámite diploma académico: Nacional a 1008 Bs, Extranjeros 1998 Bs, Técnico Superior 515 Bs, también Certificado de calificaciones de grado: puedes revisar el detalle en el enlace “Ver requisitos” o coordinar los costos en el enlace “Tabla de valores”.
+\item Más información.- Copnsiderar preguntar en el edificio Melissa para más detalles, adjuntar \textit{google maps}.
+\item Fechas.- Una vez cumplido la conclusión de estudios y cumplido con la modalidad de egreso puedes iniciar tu trámite; generalmente la información se ofrece de Kardex de cada carrera; también puedes revisar el enlace “Página Facebook” donde actualizan cualquier detalle.
+\end{itemize}
+
+\item \textbf{Título profesional}.- El Título Profesional, es el único documento que acredita el ejercicio legal de la profesión en el Estado Plurinacional de Bolivia. Considerar la página “Ver detalles”.
+\begin{itemize}
+\item Costos.- El costo del trámite para Nacionales licenciatura: 1683 Bs., Extranjeros: 3638 Bs. Y técnico medio y superior 923 Bs.; el costo incluye formulario de solicitud de trámite.
+\item Requisitos.- Sobre los requisitos se debe tener en cuenta que es exclusivo para título profesional y la cita previa en el enlace “Cita previa” también haber leído toda la información necesaria.
+\item Cronograma.- El último punto 13 en la sección de requisitos del enlace  “Ver requisitos” contiene la fecha actualizada para presentación de documentación.
+\item Más información.- La atención y recepción se efectúa de manera mensual en horarios según último comunicado en la página “Títulos Umsa” 
+\end{itemize}
+
+\item \textbf{Certificado supletorio}.- El certificado de supletorio es otorgado en casos de extravío certificado otorgado en caja recaudadora “Edificio Melissa”, deterioro o roba del Diploma Bachiller, Académico y Título Profesional, estos dos últimos SOLO si fueron otorgados por la UMSA.
+\begin{itemize}
+\item Requisitos.- Tener en cuenta los gastos correspondientes del formulario de solicitud de trámite, fotocopia del título; en caso de pérdida presentar certificación emitida por FELCC sobre perdida o robo; para más detalles revisar y leer “Ver Requisitos”.
+\item Atención.- Para más información o inicio del trámite mensualmente se realiza la atención; de acuerdo a comunicado publicado en la página “Ver Trámites Títulos”
+\end{itemize}
+\end{enumerate}
+
+\subsection{DIVISIÓN DE DOCUMENTOS Y ARCHIVO}
+
+Se consideraron los siguientes servicios a universitarios de pre grado. 
+\begin{enumerate}[label=(\alph*)]
+\item \textbf{Firma digital apostillado}.- La firma digital es un requisito para la apostilla de documentos, validando el documento fuera de territorio nacional.
+\begin{itemize}
+\item Costo.- El costo de la firma digital en Fotocopia legalizada es de 26Bs y en documento Original 203 Bs.
+\item Donde.- Solicite la firma digital para el apostillado en ventanilla “Legalizaciones” segundo patio Monoblock Central horario de atención 8:30 en adelante.
+\item Requisitos.- Después de presentación de documentos original y fotocopia anverso y reverso tamaño oficio recabar el sello de autorización para pago de valores “Ver tabla de valores”, recabar la boleta y entregar en ventanilla el sello de pago: Para más detalles ver “Requisitos firma”.
+\end{itemize} 
+
+\item \textbf{Legalización}.- Para legalizar cualquier documento considerar dos formas una “en línea” haz click “requisitos en línea” o “presencial”.
+\begin{itemize}
+\item En línea.- Acceder a la página “Cita previa legalización” o acceder al archivo “Guía de legalizaciones”, también si ya revisaste los dos anteriores revisar también “Solicitud de formulario trámite”.
+\item Presencial.- En ventanilla de legalizaciones debe presentar cedúla de identidad y  Título o Diploma original y fotocopias anverso y reverso tamaño oficio, una vez presentados recabar el sello de autorización para el pago de valores “Ver tabla de valores” según su legalización correspondiente; luego puede seguir más detalles en “Ver requisitos ”.
+\item Costos.- A continuación la imagen muestra los costos de cada fotocopia, considere su tipo de trámite considere imagen tabla de valores.
+\item Perdida boleta.- La reposición de lo cancelado 17Bs en el tesorio Universitario.
+\item Quienes.- Solo podrá realizar el trámite el interesado o parientes en primer grado; o conyugues con certificado de matrimonio o libreta familiar y/o terceras personas con poder notariado
+\end{itemize}
+\end{enumerate}
+
+\subsection{DIVISIÓN DE GESTIONES, ADMISIONES Y REGISTROS}
+
+
+Para esta división se tomaron en cuenta la siguiente lista de trámites:
+
+\begin{enumerate}[label=(\alph*)]
+
+\item \textbf{Matriculación}.- Es un registro de los datos personales de un individuo de manera específica, en un archivo con la finalidad de ingresar al sistema universitario. 
+\begin{itemize}
+\item Requisitos.- Todo individuo habiendo aprobado alguna modalidad para el ingreso a una carrera en la universidad podrá iniciar su trámite de matriculación: Si se matricula por primera vez en el sistema universitario siga el enlace "Alumno nuevo" sino siga el enlace "Alumno Antiguo"
+\item Costo.- El pago de valor de matrícula tiene un costo para alumnos Nacional o Normalista de 27 Bs., Profesionales de 245 Bs., Extranjero de 1680 Bs y rezagados de 182 Bs,. Recordar que cada facultad acordará el aporte facultativo, consulta en los predios de tu facultad. Ver pago CPT.
+\item Nuevo.- Para los alumnos nuevos deberás considerar la serie de pasos para la matriculación puedes ver el enlace "Ver requisitos", también puedes ver el video tutorial "Tutorial matriculación universitaria"
+\item CPT.- El pago CPT es una forma de pagar en línea desde un UniNET o banca móvil, puedes revisar el siguiente video "Código de pago de trámites"
+\item Cronograma Nuevo.- En la página de división de gestiones se encuentra el cronograma actualizado de matriculación "Ver cronograma".
+\item Antiguo.- Puedes proceder a pagar el valor de la matrícula y tu aporte facultativo si es que se tuviera; este pago es único por año, revisa el enlace "Costo matricula"
+
+\item Mas información.- La página "Ver Gestiones" contiene la información reciente sobre las matriculaciones, también puede ir a la dirección referida a continuación para informarse personalmente, vea la imagen de referencia "Matriculación ventanilla 8"
+
+\item En línea.- Para la certificación en línea de la matricula universitaria considere en enlace "Ver requisitos" donde se muestra la serie de pasos a seguir 
+\end{itemize}
+
+\item \textbf{Modalidades de graduación}.- A continuación se generalizan los distintas modalidades de graduación, por cada caso se direcciona a un pdf con los requisitos al parecer estático, ver cambios. 
+\begin{itemize}
+\item Grado técnico superior.- Para estudiantes que habrían realizado el examen de grado referirse al enlace "Ver TUC examen" y para aquellos que realizaron una pasantía referir "Ver TUC pasantía"
+\item Graduación directa.- Para la modalidad de graduación directa siga los requisitos y el procedimiento en el enlace "Ver graduación directa"
+\item Contador general.- Para contador general puede revisar los requisitos y procedimientos "Ver contador general"
+\item Técnico medio.- Si la modalidad es de técnico medio puede revisar los requisitos y el procedimiento en el enlace "Ver técnico medio"
+\item Bachelor.- Para bachiller superior revise los requisitos y el procedimiento a seguir en el enlace "Ver bachelor"
+\item Tesis, tesina y proyecto de grado.- Según la modalidad de tesis, tesina o proyecto de grado el inicio del trámite como requisitos se encuentran en el enlace "Tesis, tesina y proy. grado"
+\item Continua las siguientes modalidades. 
+\item Costo.- Para cada caso referir la tabla de valores para los distintos formularios necesarios como GAR 101, fotocopias legalizadas, etc. "Ver tabla valores"
+\item Consulta.- Por su carnet de identidad se puede consultar el trámite correspondiente a GAR, seguir el siguiente enlace "Consultar trámite".
+\end{itemize}
+
+\item \textbf{Carrera paralela}.- Una carrera paralela implica gestionar dos carreras a la vez cumpliendo los requisitos de materias aprobadas y promedio de 65\%, o completado el 80\% de su plan de estudios; pueden iniciar su trámite de carrera paralela. 
+\begin{itemize}
+\item Requisitos.- Los requisitos para la carrera paralela  pueden ser revisados en el enlace "Ver carrera paralela".
+\item Procedimiento.- Se publicarán y actualizarán para el ingreso al  siguiente semestre en currso en la tabla "Plazas y Calendario", si hubiere pasado el plazo se deberá esperar al siguiente semestre. La actualización sucederá en el transcurso de cada semestre puedes estar atento a la página "Ver paralela" en el transcurso de tu semestre. 
+\item Cronograma.- Si revisaste "Plazas y calendario", recuerda que el día mencionado a esas horas debes apersonarte con la documentación necesaria en la ventanilla "Introduce ventanilla".
+\item Información y trámite.- Para proceder con la entrega de documentación o consultar sobre los requisitos, dirigete a la ventanilla mostrada en la imagen. 
+\item Rezagados.- En caso de ser rezagado debe dirigirse a la ventanilla, donde le indicarán que día entregarán los resultados de las plazas y si existiese una plaza para usted. Caso contrario deberá esperar al semestre o año según corresponda.  
+\end{itemize}
+
+\item \textbf{Traspasos}.- Los traspasos corresponden al mismo sistema universitario nacional o local dentro de la universidad, también externo modalidad pasantía.
+\begin{itemize}
+\item Cambio de carrera.- Si desea realizar el cambio de carrera a uno correspondiente de la universidad, considere revisar los requisitos y procedimientos. "Ver cambio"
+\item Traspaso a universidades del sistema.- Considere como universidades del sistema a toda universidad de convenio universitario público: UAGRM, UMSS, UPEA, revisar sistema. 
+\item Información.- Para más información acerca de cambios de carrera o traspasos en general "Ventanilla 13"
+\end{itemize}
+
+\subsection{TRABAJO SOCIAL}
+Para la división de trabajo social se consideran los siguientes trámites con más relevancia en el conjunto universitario de pre grado.
+\begin{enumerate}[label=(\alph*)]
+
+\item \textbf{Beca Comedor}.- Consiste de apoyo alimentario que la Universidad Mayor de San Andrés brinda a los estudiantes universitarios destacados y con situación social económica precaria.
+\begin{itemize}
+\item Requisitos.- Cómo requisitos previos fundamentales se toma en cuenta que el estudiante debe vencer todas las materias correspondientes al primer semestre o año en su carrera de origen no paralelas, no estar en internado rotatorio o beca académica de más de 40 Hrs/mes y no aportar a AFP's para más detalle vea "Ver requisitos"
+\item Procedimiento.- Para los requisitos y documentos a presentar revise el enlace "Ver requisitos"
+\item Información.- Puede revisar la página informativa "Ver beca comedor" y las redes sociales "Trabajo Social"; también puede acudir de manera presencial revisar "Imagen trabajo social".
+\end{itemize}
+\end{enumerate}
+
+\end{enumerate}
 
 
 \chapter{MARCO APLICATIVO} 
@@ -860,7 +1004,7 @@ Desarrollando esta iteración en la figura 3.12 se consigue el siguiente resulta
 
 \begin{figure}[H]
 \centering
-\includegraphics[width=0.9\textwidth]{figura3_12}
+\includegraphics[width=0.7\textwidth]{figura3_12}
  \caption{Resultado de la primera estructura de la interfaz de usuario usando el marco de trabajo NextJS}
 \label{fig:figura3_12}
 \end{figure}
@@ -872,7 +1016,7 @@ En la figura 3.12 se muestra como se construyen los botones interactivos como fu
 
 \begin{figure}[H]
 \centering
-\includegraphics[width=0.6\textwidth]{figura3_13}
+\includegraphics[width=0.4\textwidth]{figura3_13}
  \caption{Comunicación con la interfaz del cliente modo día y noche con las respuestas rápidas implementadas mediante uso de {\it payload}}
 \label{fig:figura3_13}
 \end{figure}
@@ -884,7 +1028,7 @@ Para la segunda iteración se planea construir un constructor de flujos de conve
 Se define un sprint backlog teniendo en cuenta todo lo que se necesita para construir una aplicación web en su faceta administrativa: sean los registros e ingresos de los usuarios, implementando el uso de {\it tokens} las rutas mínimas necesarias para la gestión de administración y las rutas necesarias para la construcción de estos circuitos conversacionales de manera visual. 
 
 \begin{table}[H]
-\includegraphics[width=1.1\textwidth]{tabla3_9}
+\includegraphics[width=1\textwidth]{tabla3_9}
 \caption{Construcción del {\it sprint backlog} para la segunda iteración. } 
 \label{tab:tabla3_9} 
 \end{table}
@@ -940,7 +1084,7 @@ Para poder almacenar la información de cada usuario se guardará usando el serv
 
 \begin{figure}[H]
 \centering
-\includegraphics[width=0.5\textwidth]{figura3_18}
+\includegraphics[width=0.3\textwidth]{figura3_18}
  \caption{Modelo de administradores en la base de datos. }
 \label{fig:figura3_18}
 \end{figure}
@@ -949,7 +1093,7 @@ El siguiente modelo será el de {\it flows } que almacenará todos los circuitos
 
 \begin{figure}[H]
 \centering
-\includegraphics[width=0.8\textwidth]{figura3_19}
+\includegraphics[width=0.7\textwidth]{figura3_19}
  \caption{Modelo de constructor de circuitos de conversación. }
 \label{fig:figura3_19}
 \end{figure}
@@ -971,7 +1115,7 @@ Se procedió a desarrollar una interfaz gráfica tanto de inicio de sesión como
 
 \begin{figure}[H]
 \centering
-\includegraphics[width=0.8\textwidth]{figura3_21}
+\includegraphics[width=0.5\textwidth]{figura3_21}
  \caption{Páginas de registro e inicio de sesión. }
 \label{fig:figura3_21}
 \end{figure}
@@ -1048,7 +1192,7 @@ Para las siguientes iteraciones se cambiará de metodología haciendo uso de la 
 \par
 con la definición clara de las características del {\it chatbot} se procederá a definir iteraciones de flujos independientes. 
 
-\subsection{Carrera Paralela}
+\subsection{FLUJO DE CONVERSACIÓN CARRERA PARALELA}
 Como un circuito diferenciado se tomará como primer estructura una carrera paralela, que es un trámite muy común a realizar por la comunidad estudiantil; se tomarán en cuenta aspectos informativos para responder a las preguntas más generales que un estudiante se haría sobre este proceso. 
 
 \begin{enumerate}[label=(\alph*)]
@@ -1089,6 +1233,39 @@ Como un circuito diferenciado se tomará como primer estructura una carrera para
 
 \end{enumerate}
 
+\subsection{FLUJO DE CONVERSACIÓN APOSTILLA}
+
+\begin{enumerate}[label=(\alph*)]
+	\item \textbf{Selección de objetivos}
+	\par Tomando en cuenta la información general, solicitud de apostillado, seguimiento de la apostilla, el método de realización de pago, los puntos de atención y páginas de información relacionados al trámite de apostillado se ocnsidera el escenario definido a continuación.  
+	
+	\item \textbf{Diseño de escenarios}
+	\par Descritos como videos tutoriales, páginas de información en la división de títulos y diplomas; y en la página de ministerio de relaciones exteriores se puede realizar la apostilla.
+	
+	\item \textbf{Diseño de flujo conversacional}
+	
+	\par La figura 3.29 presenta a continuación los diagramas de flujo conversacional del resultado de los escenarios específicados. 
+	\begin{figure}[H]
+\centering
+\includegraphics[width=0.7\textwidth]{figura3_29}
+ \caption{Circuito conversacional apostilla.  }
+\label{fig:figura3_29}
+\end{figure}
+	
+	\item \textbf{Desarrollo del prototipo}
+	\par A continuación la figura 3.30 muestra la implementación en la interfaz gráfica desarrollada todo el circuito gráfico
+	\begin{figure}[H]
+\centering
+\includegraphics[width=0.6\textwidth]{figura3_30}
+ \caption{Circuito conversacional físico almacenado en base de datos y servicios de conversación - apostilla.  }
+\label{fig:figura3_30}
+\end{figure}
+
+\end{enumerate}
+
+\subsection{CUARTA ITERACIÓN}
+
+Cómo se definieron en la tercera iteración se procede a dearrollar de forma contína la implementación y mejora de los circuitos siguiendo la investigación desarrollada en la sección 2.8 y sus trámites relacionados. 
 
 \chapter{RESULTADOS}
 
@@ -1110,6 +1287,27 @@ Teniendo en cuenta estas fases integrales en la comprobación estructural de tod
 \label{tab:tabla4_1} 
 \end{table}
 
+\subsection{PRUEBAS UNITARIAS}
+
+Siguiendo los patrones de diseño para el desarrollo en aplicaciones de cliente y servidor, se aislan las partes más fundamentales para el correcto funcionamiento. La figura 4.1 muestra como se empezó a realizar pruebas unitarias en los módulos de \textit{chatbot}, \textit{builder}, \textit{playground} y \textit{apoyo}; haciendo uso de la librería \textit{Jest} y \textit{React testing library}. 
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.6\textwidth]{figura4_1}
+ \caption{Ejemplo pruebas desarrolladas en Jest y React testing library.  }
+\label{fig:figura4_1}
+\end{figure}
+
+\par
+Como parte de la arquitectura corresponde a la de micro servicios, se trabaja continuamente en el desarrollo de la aplicación con la aplicación \textit{Postman} la cual corresponde a la prueba de las direcciónes desarrolladas en la sección de API. La figura 4.2 muestra la documentación generada en el desarrollo continuo de la aplicación. 
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.6\textwidth]{figura4_2}
+\caption{Muestra de la documentación generada.  }
+\label{fig:figura4_2}
+\end{figure}
+
 \section{PRUEBA FUNCIONAL}
 Las pruebas de caja negra están orientadas a la usabilidad externa del producto sin considerar la parte interna, para este ámbito se consideran cuestionarios y entrevistas orientadas a la efectividad, eficiencia, entendimiento del producto final; así estas pruebas se orientan en las respuestas generadas dadas ciertas entradas y ejecución de algún \textit{workflow} definido, en la siguiente sección se explicarán todas las consideraciones para la selección de los \textit{testers} en los dos grupos diferenciados de usuarios y administradores.
 
@@ -1117,15 +1315,16 @@ Las pruebas de caja negra están orientadas a la usabilidad externa del producto
 En la metodología IMADTC se definen pruebas de entrada y salida esperada a preguntas realizadas al \textit{chatbot}, se considera que se realizarán evaluaciones en dos formatos tanto para la usabilidad del módulo de chat y un administrador que pueda generar estructuras conversacionales para su posterior uso. 
 
 \subsection{ENCUESTA A USUARIOS}
-Se realizaron visitas continuas a predios de la Universidad Mayor de San Andrés realizando preguntas a la población disponible, sean estudiantes, visitantes, o personal administrativo; realizando las siguientes preguntas:
+Se realizaron visitas continuas a predios de la Universidad Mayor de San Andrés realizando preguntas a la población disponible, sean estudiantes o visitantes realizando las siguientes preguntas:
 
 \begin{itemize}
 \item ¿Cómo te pareció la experiencia del uso del chatbot? Bueno, Regular, Malo
 \item ¿Considera útil la información que brindo a lo largo de la interacción? Si, No
 \item ¿Pudo encontrar algún trámite de interés que no pudo responder el chatbot? Si, No
-\item ¿Podría recomendar algún trámite que se pueda implementar a futuro? Descripción
+\item ¿Podría recomendar algún trámite que se pueda implementar a futuro?
 \item ¿Te ha resultado fácil de manejar? Complicado, regular, fácil
 \end{itemize}
+
 
 \subsection{ENCUESTA A DESARROLLADORES Y ADMINISTRATIVOS}
 Se considera útil realizar las preguntas a administrativos o desarrolladores expertos, para que interactúen con los módulos que generan circuitos conversativos, preguntando características técnicas como se describen a continuación:

@@ -1,83 +1,85 @@
 \babel@toc {spanish}{}
-\contentsline {chapter}{\numberline {1}INTRODUCCIÓN}{1}{}%
-\contentsline {section}{\numberline {1.1}INTRODUCCIÓN}{1}{}%
-\contentsline {section}{\numberline {1.2}ANTECEDENTES}{2}{}%
-\contentsline {section}{\numberline {1.3}DESCRIPCIÓN DEL PROBLEMA}{6}{}%
-\contentsline {section}{\numberline {1.4}PROBLEMA CENTRAL}{9}{}%
-\contentsline {section}{\numberline {1.5}PROBLEMAS SECUNDARIOS}{9}{}%
-\contentsline {section}{\numberline {1.6}DEFINICIÓN DE OBJETIVOS}{10}{}%
-\contentsline {subsection}{\numberline {1.6.1}OBJETIVO GENERAL}{10}{}%
-\contentsline {subsection}{\numberline {1.6.2}OBJETIVOS ESPECÍFICOS}{10}{}%
-\contentsline {section}{\numberline {1.7}JUSTIFICACIÓN}{11}{}%
-\contentsline {section}{\numberline {1.8}LÍMITES Y/O ALCANCES}{11}{}%
-\contentsline {subsection}{\numberline {1.8.1}LÍMITES}{11}{}%
-\contentsline {subsection}{\numberline {1.8.2}ALCANCES}{12}{}%
-\contentsline {section}{\numberline {1.9}DISEÑO METODOLÓGICO}{12}{}%
-\contentsline {section}{\numberline {1.10}METODOLOGÍA DE DESARROLLO}{13}{}%
-\contentsline {subsection}{\numberline {1.10.1}METODOLOGÍA PARA EL DESARROLLO DE APLICACIONES WEB}{14}{}%
-\contentsline {subsection}{\numberline {1.10.2}METODOLOGÍA PARA EL DESARROLLO DE CHATBOTS}{17}{}%
-\contentsline {chapter}{\numberline {2}MARCO TEÓRICO}{19}{}%
-\contentsline {section}{\numberline {2.1}AGENTE VIRTUAL}{19}{}%
-\contentsline {subsection}{\numberline {2.1.1}AGENTES VIRTUALES COMERCIALES}{21}{}%
-\contentsline {section}{\numberline {2.2}TIPOS DE MODELOS PARA AGENTES VIRTUALES}{22}{}%
-\contentsline {subsection}{\numberline {2.2.1}ASISTENTES BASADOS EN RECUPERACIÓN DE TEXTO}{23}{}%
-\contentsline {subsection}{\numberline {2.2.2}ASISTENTES BASADOS EN LA GENERACIÓN DE TEXTO}{24}{}%
-\contentsline {subsection}{\numberline {2.2.3}VENTAJAS Y DESVENTAJAS DE LOS MODELOS DE RECUPERACIÓN Y GENERATIVOS}{25}{}%
-\contentsline {section}{\numberline {2.3}COMPONENTES DE UN CHATBOT}{25}{}%
-\contentsline {section}{\numberline {2.4}COMO TRABAJA UN SISTEMA DE CONVERSACIÓN}{27}{}%
-\contentsline {section}{\numberline {2.5}HERRAMIENTAS DE ANÁLISIS DE LENGUAJE NATURAL}{29}{}%
-\contentsline {subsection}{\numberline {2.5.1}DIALOGFLOW}{31}{}%
-\contentsline {subsection}{\numberline {2.5.2}INTENCIONES}{32}{}%
-\contentsline {subsection}{\numberline {2.5.3}ENTIDADES}{34}{}%
-\contentsline {subsection}{\numberline {2.5.4}CONTEXTO}{34}{}%
-\contentsline {subsection}{\numberline {2.5.5}RASA}{35}{}%
-\contentsline {subsection}{\numberline {2.5.6}RASA CORE}{36}{}%
-\contentsline {section}{\numberline {2.6}PROCESAMIENTO DEL LENGUAJE NATURAL}{37}{}%
-\contentsline {subsection}{\numberline {2.6.1}TOKENIZACIÓN}{38}{}%
-\contentsline {subsection}{\numberline {2.6.2}EXPRESIONES REGULARES}{39}{}%
-\contentsline {subsection}{\numberline {2.6.3}N-GRAMS}{39}{}%
-\contentsline {subsection}{\numberline {2.6.4}STOP WORDS}{39}{}%
-\contentsline {subsection}{\numberline {2.6.5}STEMMING}{40}{}%
-\contentsline {subsection}{\numberline {2.6.6}LEMATIZACIÓN}{41}{}%
-\contentsline {subsection}{\numberline {2.6.7}WORD EMBEDDING}{41}{}%
-\contentsline {subsection}{\numberline {2.6.8}REDES NEURONALES ARTIFICIALES}{42}{}%
-\contentsline {subsection}{\numberline {2.6.9}REDES NEURONALES PROFUNDAS}{45}{}%
-\contentsline {subsection}{\numberline {2.6.10}REDES RECURRENTES}{47}{}%
-\contentsline {subsection}{\numberline {2.6.11}LONG SHORT TERM MEMORY}{48}{}%
-\contentsline {section}{\numberline {2.7}HERRAMIENTAS DE DESARROLLO}{50}{}%
-\contentsline {section}{\numberline {2.8}COMPRENSIÓN DE TRÁMITES UNIVERSITARIOS}{51}{}%
-\contentsline {subsection}{\numberline {2.8.1}CARRERA PARALELA}{51}{}%
-\contentsline {subsection}{\numberline {2.8.2}TRASPASO DE CARRERA}{52}{}%
-\contentsline {subsection}{\numberline {2.8.3}CARRERA SIMULTÁNEA}{52}{}%
-\contentsline {subsection}{\numberline {2.8.4}ADMISIÓN ESPECIAL}{52}{}%
-\contentsline {subsection}{\numberline {2.8.5}READMISIÓN}{52}{}%
-\contentsline {subsection}{\numberline {2.8.6}TRÁMITE DE CONVALIDACIÓN}{53}{}%
-\contentsline {chapter}{\numberline {3}MARCO APLICATIVO}{55}{}%
-\contentsline {section}{\numberline {3.1}FASE PRE-GAME}{55}{}%
-\contentsline {subsection}{\numberline {3.1.1}DEFINICIÓN DE { \bf PRODUCT BACKLOG}}{55}{}%
-\contentsline {subsection}{\numberline {3.1.2}DETECCIÓN DE PÚBLICO OBJETIVO}{56}{}%
-\contentsline {subsection}{\numberline {3.1.3}ESTRATEGIA DE RECOPILACIÓN DE REQUERIMIENTOS}{57}{}%
-\contentsline {section}{\numberline {3.2}HISTORIAS DE USUARIO}{59}{}%
-\contentsline {section}{\numberline {3.3}PILA DEL PRODUCTO}{62}{}%
-\contentsline {section}{\numberline {3.4}FASE GAME}{62}{}%
-\contentsline {section}{\numberline {3.5}PRIMERA ITERACIÓN}{64}{}%
-\contentsline {subsection}{\numberline {3.5.1}MODELO DE REQUERIMIENTOS}{65}{}%
-\contentsline {subsection}{\numberline {3.5.2}ACTIVIDADES}{67}{}%
-\contentsline {subsection}{\numberline {3.5.3}MODELO DE CONTENIDO}{69}{}%
-\contentsline {subsection}{\numberline {3.5.4}MODELO DE PROCESO}{70}{}%
-\contentsline {subsection}{\numberline {3.5.5}MODELO DE PRESENTACIÓN}{71}{}%
-\contentsline {section}{\numberline {3.6}SEGUNDA ITERACIÓN}{73}{}%
-\contentsline {subsection}{\numberline {3.6.1}MODELO DE REQUERIMIENTOS}{74}{}%
-\contentsline {subsection}{\numberline {3.6.2}ACTIVIDADES}{76}{}%
-\contentsline {subsection}{\numberline {3.6.3}MODELO DE CONTENIDO}{77}{}%
-\contentsline {subsection}{\numberline {3.6.4}MODELO DE PROCESO Y PRESENTACIÓN}{78}{}%
-\contentsline {section}{\numberline {3.7}TERCERA ITERACIÓN}{82}{}%
-\contentsline {subsection}{\numberline {3.7.1}Carrera Paralela}{84}{}%
-\contentsline {chapter}{\numberline {4}RESULTADOS}{87}{}%
-\contentsline {section}{\numberline {4.1}PRUEBA ESTRUCTURAL}{87}{}%
-\contentsline {section}{\numberline {4.2}PRUEBA FUNCIONAL}{88}{}%
-\contentsline {subsection}{\numberline {4.2.1}ENCUESTA A USUARIOS}{88}{}%
-\contentsline {subsection}{\numberline {4.2.2}ENCUESTA A DESARROLLADORES Y ADMINISTRATIVOS}{89}{}%
-\contentsline {chapter}{\numberline {5}CONCLUSIONES Y RECOMENDACIONES}{91}{}%
-\contentsline {section}{\numberline {5.1}CONCLUSIONES}{91}{}%
-\contentsline {section}{\numberline {5.2}RECOMENDACIONES}{92}{}%
+\contentsline {chapter}{\numberline {1}INTRODUCCIÓN}{1}{chapter.1}%
+\contentsline {section}{\numberline {1.1}INTRODUCCIÓN}{1}{section.1.1}%
+\contentsline {section}{\numberline {1.2}ANTECEDENTES}{2}{section.1.2}%
+\contentsline {section}{\numberline {1.3}DESCRIPCIÓN DEL PROBLEMA}{6}{section.1.3}%
+\contentsline {section}{\numberline {1.4}PROBLEMA CENTRAL}{9}{section.1.4}%
+\contentsline {section}{\numberline {1.5}PROBLEMAS SECUNDARIOS}{9}{section.1.5}%
+\contentsline {section}{\numberline {1.6}DEFINICIÓN DE OBJETIVOS}{10}{section.1.6}%
+\contentsline {subsection}{\numberline {1.6.1}OBJETIVO GENERAL}{10}{subsection.1.6.1}%
+\contentsline {subsection}{\numberline {1.6.2}OBJETIVOS ESPECÍFICOS}{10}{subsection.1.6.2}%
+\contentsline {section}{\numberline {1.7}JUSTIFICACIÓN}{11}{section.1.7}%
+\contentsline {section}{\numberline {1.8}LÍMITES Y/O ALCANCES}{11}{section.1.8}%
+\contentsline {subsection}{\numberline {1.8.1}LÍMITES}{11}{subsection.1.8.1}%
+\contentsline {subsection}{\numberline {1.8.2}ALCANCES}{12}{subsection.1.8.2}%
+\contentsline {section}{\numberline {1.9}DISEÑO METODOLÓGICO}{12}{section.1.9}%
+\contentsline {section}{\numberline {1.10}METODOLOGÍA DE DESARROLLO}{13}{section.1.10}%
+\contentsline {subsection}{\numberline {1.10.1}METODOLOGÍA PARA EL DESARROLLO DE APLICACIONES WEB}{14}{subsection.1.10.1}%
+\contentsline {subsection}{\numberline {1.10.2}METODOLOGÍA PARA EL DESARROLLO DE CHATBOTS}{17}{subsection.1.10.2}%
+\contentsline {chapter}{\numberline {2}MARCO TEÓRICO}{19}{chapter.2}%
+\contentsline {section}{\numberline {2.1}AGENTE VIRTUAL}{19}{section.2.1}%
+\contentsline {subsection}{\numberline {2.1.1}AGENTES VIRTUALES COMERCIALES}{21}{subsection.2.1.1}%
+\contentsline {section}{\numberline {2.2}TIPOS DE MODELOS PARA AGENTES VIRTUALES}{22}{section.2.2}%
+\contentsline {subsection}{\numberline {2.2.1}ASISTENTES BASADOS EN RECUPERACIÓN DE TEXTO}{23}{subsection.2.2.1}%
+\contentsline {subsection}{\numberline {2.2.2}ASISTENTES BASADOS EN LA GENERACIÓN DE TEXTO}{25}{subsection.2.2.2}%
+\contentsline {subsection}{\numberline {2.2.3}VENTAJAS Y DESVENTAJAS DE LOS MODELOS DE RECUPERACIÓN Y GENERATIVOS}{25}{subsection.2.2.3}%
+\contentsline {section}{\numberline {2.3}COMPONENTES DE UN CHATBOT}{26}{section.2.3}%
+\contentsline {section}{\numberline {2.4}COMO TRABAJA UN SISTEMA DE CONVERSACIÓN}{27}{section.2.4}%
+\contentsline {section}{\numberline {2.5}HERRAMIENTAS DE ANÁLISIS DE LENGUAJE NATURAL}{29}{section.2.5}%
+\contentsline {subsection}{\numberline {2.5.1}DIALOGFLOW}{31}{subsection.2.5.1}%
+\contentsline {subsection}{\numberline {2.5.2}INTENCIONES}{32}{subsection.2.5.2}%
+\contentsline {subsection}{\numberline {2.5.3}ENTIDADES}{34}{subsection.2.5.3}%
+\contentsline {subsection}{\numberline {2.5.4}CONTEXTO}{34}{subsection.2.5.4}%
+\contentsline {subsection}{\numberline {2.5.5}RASA}{35}{subsection.2.5.5}%
+\contentsline {subsection}{\numberline {2.5.6}RASA CORE}{36}{subsection.2.5.6}%
+\contentsline {section}{\numberline {2.6}PROCESAMIENTO DEL LENGUAJE NATURAL}{37}{section.2.6}%
+\contentsline {subsection}{\numberline {2.6.1}TOKENIZACIÓN}{38}{subsection.2.6.1}%
+\contentsline {subsection}{\numberline {2.6.2}EXPRESIONES REGULARES}{38}{subsection.2.6.2}%
+\contentsline {subsection}{\numberline {2.6.3}N-GRAMS}{39}{subsection.2.6.3}%
+\contentsline {subsection}{\numberline {2.6.4}STOP WORDS}{39}{subsection.2.6.4}%
+\contentsline {subsection}{\numberline {2.6.5}STEMMING}{40}{subsection.2.6.5}%
+\contentsline {subsection}{\numberline {2.6.6}LEMATIZACIÓN}{40}{subsection.2.6.6}%
+\contentsline {subsection}{\numberline {2.6.7}WORD EMBEDDING}{41}{subsection.2.6.7}%
+\contentsline {subsection}{\numberline {2.6.8}REDES NEURONALES ARTIFICIALES}{42}{subsection.2.6.8}%
+\contentsline {subsection}{\numberline {2.6.9}REDES NEURONALES PROFUNDAS}{43}{subsection.2.6.9}%
+\contentsline {subsection}{\numberline {2.6.10}REDES RECURRENTES}{46}{subsection.2.6.10}%
+\contentsline {subsection}{\numberline {2.6.11}LONG SHORT TERM MEMORY}{47}{subsection.2.6.11}%
+\contentsline {section}{\numberline {2.7}HERRAMIENTAS DE DESARROLLO}{49}{section.2.7}%
+\contentsline {section}{\numberline {2.8}COMPRENSIÓN DE TRÁMITES UNIVERSITARIOS Y ADMISIONES}{50}{section.2.8}%
+\contentsline {subsection}{\numberline {2.8.1}RECOPILACIÓN DE TRÁMITES OBJETIVOS}{51}{subsection.2.8.1}%
+\contentsline {subsection}{\numberline {2.8.2}DIVISIÓN DE TÍTULOS Y DIPLOMAS}{52}{subsection.2.8.2}%
+\contentsline {subsection}{\numberline {2.8.3}DIVISIÓN DE DOCUMENTOS Y ARCHIVO}{55}{subsection.2.8.3}%
+\contentsline {subsection}{\numberline {2.8.4}DIVISIÓN DE GESTIONES, ADMISIONES Y REGISTROS}{57}{subsection.2.8.4}%
+\contentsline {subsection}{\numberline {2.8.5}TRABAJO SOCIAL}{60}{subsection.2.8.5}%
+\contentsline {chapter}{\numberline {3}MARCO APLICATIVO}{61}{chapter.3}%
+\contentsline {section}{\numberline {3.1}FASE PRE-GAME}{61}{section.3.1}%
+\contentsline {subsection}{\numberline {3.1.1}DEFINICIÓN DE { \bf PRODUCT BACKLOG}}{61}{subsection.3.1.1}%
+\contentsline {subsection}{\numberline {3.1.2}DETECCIÓN DE PÚBLICO OBJETIVO}{62}{subsection.3.1.2}%
+\contentsline {subsection}{\numberline {3.1.3}ESTRATEGIA DE RECOPILACIÓN DE REQUERIMIENTOS}{63}{subsection.3.1.3}%
+\contentsline {section}{\numberline {3.2}HISTORIAS DE USUARIO}{65}{section.3.2}%
+\contentsline {section}{\numberline {3.3}PILA DEL PRODUCTO}{68}{section.3.3}%
+\contentsline {section}{\numberline {3.4}FASE GAME}{68}{section.3.4}%
+\contentsline {section}{\numberline {3.5}PRIMERA ITERACIÓN}{70}{section.3.5}%
+\contentsline {subsection}{\numberline {3.5.1}MODELO DE REQUERIMIENTOS}{71}{subsection.3.5.1}%
+\contentsline {subsection}{\numberline {3.5.2}ACTIVIDADES}{73}{subsection.3.5.2}%
+\contentsline {subsection}{\numberline {3.5.3}MODELO DE CONTENIDO}{75}{subsection.3.5.3}%
+\contentsline {subsection}{\numberline {3.5.4}MODELO DE PROCESO}{76}{subsection.3.5.4}%
+\contentsline {subsection}{\numberline {3.5.5}MODELO DE PRESENTACIÓN}{77}{subsection.3.5.5}%
+\contentsline {section}{\numberline {3.6}SEGUNDA ITERACIÓN}{79}{section.3.6}%
+\contentsline {subsection}{\numberline {3.6.1}MODELO DE REQUERIMIENTOS}{80}{subsection.3.6.1}%
+\contentsline {subsection}{\numberline {3.6.2}ACTIVIDADES}{81}{subsection.3.6.2}%
+\contentsline {subsection}{\numberline {3.6.3}MODELO DE CONTENIDO}{82}{subsection.3.6.3}%
+\contentsline {subsection}{\numberline {3.6.4}MODELO DE PROCESO Y PRESENTACIÓN}{84}{subsection.3.6.4}%
+\contentsline {section}{\numberline {3.7}TERCERA ITERACIÓN}{87}{section.3.7}%
+\contentsline {subsection}{\numberline {3.7.1}FLUJO DE CONVERSACIÓN CARRERA PARALELA}{89}{subsection.3.7.1}%
+\contentsline {subsection}{\numberline {3.7.2}FLUJO DE CONVERSACIÓN APOSTILLA}{92}{subsection.3.7.2}%
+\contentsline {subsection}{\numberline {3.7.3}CUARTA ITERACIÓN}{94}{subsection.3.7.3}%
+\contentsline {chapter}{\numberline {4}RESULTADOS}{95}{chapter.4}%
+\contentsline {section}{\numberline {4.1}PRUEBA ESTRUCTURAL}{95}{section.4.1}%
+\contentsline {subsection}{\numberline {4.1.1}PRUEBAS UNITARIAS}{96}{subsection.4.1.1}%
+\contentsline {section}{\numberline {4.2}PRUEBA FUNCIONAL}{97}{section.4.2}%
+\contentsline {subsection}{\numberline {4.2.1}ENCUESTA A USUARIOS}{98}{subsection.4.2.1}%
+\contentsline {subsection}{\numberline {4.2.2}ENCUESTA A DESARROLLADORES Y ADMINISTRATIVOS}{98}{subsection.4.2.2}%
+\contentsline {chapter}{\numberline {5}CONCLUSIONES Y RECOMENDACIONES}{99}{chapter.5}%
+\contentsline {section}{\numberline {5.1}CONCLUSIONES}{99}{section.5.1}%
+\contentsline {section}{\numberline {5.2}RECOMENDACIONES}{100}{section.5.2}%
